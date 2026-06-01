@@ -1,0 +1,7376 @@
+{
+  "harmony": {
+    "sf8jcoldqmg": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "i3q0ih4jb7g": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "luambeb0op8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "tn60j9aqum": {
+      "links": [
+        "camm21pbu5",
+        "luambeb0op8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "qk3lebls6h": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "6gvrs6f9v6": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "camm21pbu5": {
+      "links": [
+        "ale2rdto4ro",
+        "6gvrs6f9v6"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "mbn4vi7pes": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "gu6fpbsvej8": {
+      "links": [],
+      "probability": "0.32"
+    },
+    "1cackv7cos8": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "4tu1elu8pu8": {
+      "links": [],
+      "probability": "0.84"
+    },
+    "44r4g6lt0o8": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "qoaij85ute": {
+      "links": [
+        "4tu1elu8pu8",
+        "44r4g6lt0o8"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "okeosp3t53o": {
+      "links": [
+        "8vcv6nfr5r8",
+        "qoaij85ute"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "5ata4sr43": {
+      "links": [
+        "gu6fpbsvej8",
+        "okeosp3t53o"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "q2pm8vh8ftg": {
+      "links": [
+        "mbn4vi7pes",
+        "5ata4sr43"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "9n9mmrtlk2g": {
+      "links": [],
+      "probability": "0.58"
+    },
+    "bbciv3rirho": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "1df0ge58hq8": {
+      "links": [
+        "e9et1jllca8",
+        "bbciv3rirho"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "0cjnl9a0teg": {
+      "links": [],
+      "probability": "0.44"
+    },
+    "hmjg62tstd8": {
+      "links": [
+        "1df0ge58hq8",
+        "0cjnl9a0teg"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "ale2rdto4ro": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "juj593lq5io": {
+      "links": [
+        "hmjg62tstd8",
+        "ale2rdto4ro"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "btlomap35q8": {
+      "links": [],
+      "probability": "0.32"
+    },
+    "gbrvl13khag": {
+      "links": [
+        "53o65rk42ro",
+        "btlomap35q8"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "sm0u4s1rv9g": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "1iiv5lt7md": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "8vcv6nfr5r8": {
+      "links": [
+        "epetse7ajgg",
+        "1iiv5lt7md"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "1eja7064u8g": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "c670d98svd8": {
+      "links": [],
+      "probability": "0.44"
+    },
+    "epetse7ajgg": {
+      "links": [
+        "1eja7064u8g",
+        "c670d98svd8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "lqec2sku4go": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "csdnevtk13o": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "0uklv72t3a8": {
+      "links": [
+        "f9joggljoe",
+        "csdnevtk13o"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "7v819fm43": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "cjn51e9e1t8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "f9joggljoe": {
+      "links": [
+        "7v819fm43",
+        "cjn51e9e1t8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "89quhefofoo": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "u97uf55r6rg": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "st48pbn5mt": {
+      "links": [
+        "jne4up8ics",
+        "u97uf55r6rg"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "e9et1jllca8": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "bk4bn41rbb": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "jne4up8ics": {
+      "links": [
+        "e9et1jllca8",
+        "bk4bn41rbb"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "3052rcdte88": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "693u2rp3gag": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "eklu1fmcea8": {
+      "links": [
+        "bbviebib92g",
+        "693u2rp3gag"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "542bhn6h6l": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "sjf5qsf2ao8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "bbviebib92g": {
+      "links": [
+        "9bvdjlicafo",
+        "sjf5qsf2ao8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "vg6lh12oveo": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "3k7uatvrico": {
+      "links": [],
+      "probability": "0.32"
+    },
+    "jtlthv6i5c8": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "i8tno85u05o": {
+      "links": [],
+      "probability": "0.84"
+    },
+    "dbl8pjrkbko": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "rjot8i20m6g": {
+      "links": [
+        "i8tno85u05o",
+        "dbl8pjrkbko"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "n1lq07718t": {
+      "links": [
+        "8p3ggq8euc8",
+        "rjot8i20m6g"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "6vbs99kr0kg": {
+      "links": [
+        "3k7uatvrico",
+        "n1lq07718t"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "rbnu1al7gu": {
+      "links": [
+        "vg6lh12oveo",
+        "6vbs99kr0kg"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "p0ekciia578": {
+      "links": [],
+      "probability": "0.58"
+    },
+    "8f1jl8j3588": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "k0nlklv2oq": {
+      "links": [
+        "341iitq93",
+        "8f1jl8j3588"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "gvt4di1clv": {
+      "links": [],
+      "probability": "0.44"
+    },
+    "4ohec0vfqag": {
+      "links": [
+        "k0nlklv2oq",
+        "gvt4di1clv"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "9bvdjlicafo": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "a6tngumeseg": {
+      "links": [
+        "4ohec0vfqag",
+        "9bvdjlicafo"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "odmdrc2isd8": {
+      "links": [],
+      "probability": "0.32"
+    },
+    "1ftd6ciqft": {
+      "links": [
+        "a6tngumeseg",
+        "odmdrc2isd8"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "sbt0ol6opko": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "i0t49sjlrp8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "8p3ggq8euc8": {
+      "links": [
+        "psej6ivt4r8",
+        "i0t49sjlrp8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "aopjq04s6lg": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "7j8agma958o": {
+      "links": [],
+      "probability": "0.44"
+    },
+    "psej6ivt4r8": {
+      "links": [
+        "aopjq04s6lg",
+        "7j8agma958o"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "dkqr6ffgkfo": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "8cr3nghtqlo": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "3gapgp1c1s8": {
+      "links": [
+        "h7a03h8725g",
+        "8cr3nghtqlo"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "8ejtse88kg8": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "53o65rk42ro": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "h7a03h8725g": {
+      "links": [
+        "8ejtse88kg8",
+        "53o65rk42ro"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "t7upd4dj988": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "5esmd5p1gf8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "h4f955lk0to": {
+      "links": [
+        "c25ctui4ijg",
+        "5esmd5p1gf8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "341iitq93": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "0ilq6abck6": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "c25ctui4ijg": {
+      "links": [
+        "eu1su8ma8no",
+        "0ilq6abck6"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "99l6kn4mdc": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "2gm34vcp0to": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "0aggdeeesdo": {
+      "links": [
+        "286i4sqm7g8",
+        "2gm34vcp0to"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "ue8grihoci8": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "r0ri8kgels": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "286i4sqm7g8": {
+      "links": [
+        "h5bnm8tpu3g",
+        "r0ri8kgels"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "l6co1hq7ovo": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "jslf7duimf8": {
+      "links": [],
+      "probability": "0.32"
+    },
+    "1poqoop5lqg": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "t2bj5sso9c8": {
+      "links": [],
+      "probability": "0.84"
+    },
+    "eu1su8ma8no": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "58c1qqgpbp8": {
+      "links": [
+        "t2bj5sso9c8",
+        "eu1su8ma8no"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "q9np27v8rcg": {
+      "links": [
+        "hamtgm48u08",
+        "58c1qqgpbp8"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "r39lsga9bho": {
+      "links": [
+        "jslf7duimf8",
+        "q9np27v8rcg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "voamvqaj9eo": {
+      "links": [
+        "l6co1hq7ovo",
+        "r39lsga9bho"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "o7nfjjihmpo": {
+      "links": [],
+      "probability": "0.58"
+    },
+    "ed4d56b6mrg": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "l1dmsdfq718": {
+      "links": [
+        "l0ccfk3sdfo",
+        "ed4d56b6mrg"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "vjcvgjskaa": {
+      "links": [],
+      "probability": "0.44"
+    },
+    "sh97eod1ir": {
+      "links": [
+        "l1dmsdfq718",
+        "vjcvgjskaa"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "h5bnm8tpu3g": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "foo9s9jb96": {
+      "links": [
+        "sh97eod1ir",
+        "h5bnm8tpu3g"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "540vnf6cp8g": {
+      "links": [],
+      "probability": "0.32"
+    },
+    "10or5fg1v5g": {
+      "links": [
+        "r3kb5971kd",
+        "540vnf6cp8g"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "1add0lql2e8": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "lhpi6ndgg7": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "hamtgm48u08": {
+      "links": [
+        "mrqs26t1d28",
+        "lhpi6ndgg7"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "tjkfj53c4eo": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "qv6p2ooh0tg": {
+      "links": [],
+      "probability": "0.44"
+    },
+    "mrqs26t1d28": {
+      "links": [
+        "tjkfj53c4eo",
+        "qv6p2ooh0tg"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "pld1qm64vcg": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "d26849i6os": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "m2a60ak5bd": {
+      "links": [
+        "58pqt7r9lmo",
+        "d26849i6os"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "9aooe9ai288": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "5srcrah6lt": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "58pqt7r9lmo": {
+      "links": [
+        "9aooe9ai288",
+        "5srcrah6lt"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "4b9bkjtfmvg": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "e9ha1t87c2o": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "69275hf8g1o": {
+      "links": [
+        "m9m80l5u6m",
+        "e9ha1t87c2o"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "l0ccfk3sdfo": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "60lh2l7fqa": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "m9m80l5u6m": {
+      "links": [
+        "l0ccfk3sdfo",
+        "60lh2l7fqa"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "kiof0jfe82": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "6q6sgg53coo": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "vn85pnuqbe": {
+      "links": [
+        "7j2sjngq3d8",
+        "6q6sgg53coo"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "63c2ftoblno": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "sc88kn1h5vo": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "7j2sjngq3d8": {
+      "links": [
+        "b3ogpfaslh8",
+        "sc88kn1h5vo"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "lb9ldqgcuk8": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "r5bgp7k3m48": {
+      "links": [],
+      "probability": "0.32"
+    },
+    "cga80bp1ot8": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "02e3mutvqbg": {
+      "links": [],
+      "probability": "0.84"
+    },
+    "59h417elic8": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "dmf253m0j0o": {
+      "links": [
+        "02e3mutvqbg",
+        "59h417elic8"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "ipgfr8ppf2g": {
+      "links": [
+        "9vfj6m1cmbo",
+        "dmf253m0j0o"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "j1rf1hogkhg": {
+      "links": [
+        "r5bgp7k3m48",
+        "ipgfr8ppf2g"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "69pagu698hg": {
+      "links": [
+        "lb9ldqgcuk8",
+        "j1rf1hogkhg"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "rmrg9rr62ao": {
+      "links": [],
+      "probability": "0.58"
+    },
+    "u8m00eujmro": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "3frsgq6pmq8": {
+      "links": [
+        "j85gt5qerr",
+        "u8m00eujmro"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "5gv2n2ub5pg": {
+      "links": [],
+      "probability": "0.44"
+    },
+    "59gn4eqh2hg": {
+      "links": [
+        "3frsgq6pmq8",
+        "5gv2n2ub5pg"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "b3ogpfaslh8": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "b2nool3vis8": {
+      "links": [
+        "59gn4eqh2hg",
+        "b3ogpfaslh8"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "epi1hr3l61o": {
+      "links": [],
+      "probability": "0.32"
+    },
+    "i92u6u8so5o": {
+      "links": [
+        "b2nool3vis8",
+        "epi1hr3l61o"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "coeea13qr5": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "gnavtoop0l8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "9vfj6m1cmbo": {
+      "links": [
+        "lu82l6qe928",
+        "gnavtoop0l8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "udh7ssmhlmo": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "72jc221nki": {
+      "links": [],
+      "probability": "0.44"
+    },
+    "lu82l6qe928": {
+      "links": [
+        "udh7ssmhlmo",
+        "72jc221nki"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "4lponcl63g8": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "2anmmc4p3r": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "j0rkqnundhg": {
+      "links": [
+        "5j8cdm0u6bo",
+        "2anmmc4p3r"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "r3kb5971kd": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "5j8cdm0u6bo": {
+      "links": [
+        "sf8jcoldqmg",
+        "r3kb5971kd"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "n1t49644ing": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "f06lrmaf5f": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "l6gl9ktcbdg": {
+      "links": [
+        "d5r3hoictoo",
+        "f06lrmaf5f"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "j85gt5qerr": {
+      "links": [],
+      "probability": "0.89"
+    },
+    "g9dkqov23mg": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "d5r3hoictoo": {
+      "links": [
+        "j85gt5qerr",
+        "g9dkqov23mg"
+      ],
+      "predicate": "melodic_direction_is_up"
+    }
+  },
+  "bass": {
+    "jec7asl5uao": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "garbrshgn68": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "vu17njapfvo": {
+      "links": [
+        "jec7asl5uao",
+        "garbrshgn68"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "9fdr4reuing": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "1hajes0p978": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "c2qlgjjnvkg": {
+      "links": [
+        "9fdr4reuing",
+        "1hajes0p978"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "m9p7rf94978": {
+      "links": [
+        "vu17njapfvo",
+        "c2qlgjjnvkg"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "sh8rcr9dumg": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "9gqrcd1clm8": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "vkr51al416g": {
+      "links": [
+        "ckhli8jd89g",
+        "9gqrcd1clm8"
+      ],
+      "predicate": "is_unison"
+    },
+    "kv0msbc5k08": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "io79v6fj328": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "ifvfmh324hg": {
+      "links": [
+        "c8oojlj21ro",
+        "io79v6fj328"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "kn6aeg3pga": {
+      "links": [
+        "fd8593tv5go",
+        "ifvfmh324hg"
+      ],
+      "predicate": "is_unison"
+    },
+    "t38grfe6ik8": {
+      "links": [
+        "m9p7rf94978",
+        "kn6aeg3pga"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "fuer8p80e18": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "j13us7gm73o": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "unf5o908tcg": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "9b118jln44": {
+      "links": [
+        "j13us7gm73o",
+        "unf5o908tcg"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "93g4rrvomgo": {
+      "links": [
+        "fuer8p80e18",
+        "9b118jln44"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "h3tf65dhatg": {
+      "links": [],
+      "probability": "0.69"
+    },
+    "tv008ntlmk8": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "b3tssvs22kg": {
+      "links": [
+        "h3tf65dhatg",
+        "tv008ntlmk8"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "u77h53f90p": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "vb2vd9v2vng": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "f89kdohj9rg": {
+      "links": [
+        "u77h53f90p",
+        "vb2vd9v2vng"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "6dnoqprivag": {
+      "links": [
+        "b3tssvs22kg",
+        "f89kdohj9rg"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "tcbsih6m9jg": {
+      "links": [
+        "93g4rrvomgo",
+        "6dnoqprivag"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "c8bg6t6uaqg": {
+      "links": [
+        "t38grfe6ik8",
+        "tcbsih6m9jg"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "c8oojlj21ro": {
+      "links": [],
+      "probability": "0.86"
+    },
+    "u3b3rof1dq8": {
+      "links": [],
+      "probability": "0.19"
+    },
+    "sb4t9o2saco": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "u37sjhd0afg": {
+      "links": [
+        "u3b3rof1dq8",
+        "sb4t9o2saco"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "toianu25fv": {
+      "links": [],
+      "probability": "0.46"
+    },
+    "dct75qt27so": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "j5kl8e7fjto": {
+      "links": [
+        "toianu25fv",
+        "dct75qt27so"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "rftl4kqg3c8": {
+      "links": [
+        "u37sjhd0afg",
+        "j5kl8e7fjto"
+      ],
+      "predicate": "duration_is_half_note"
+    },
+    "ftickuvdrb8": {
+      "links": [
+        "c8oojlj21ro",
+        "rftl4kqg3c8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "btpqrtuops8": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "9lr2pmm2mq8": {
+      "links": [
+        "ftickuvdrb8",
+        "btpqrtuops8"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "6dojsgn9djo": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "4v7s5cshrp": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "7sofslos27g": {
+      "links": [
+        "6dojsgn9djo",
+        "4v7s5cshrp"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "luej96vavo8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "mrfsipcc9fg": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "3rhgs3q3vro": {
+      "links": [
+        "luej96vavo8",
+        "mrfsipcc9fg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "qbln9tdfps": {
+      "links": [
+        "7sofslos27g",
+        "3rhgs3q3vro"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "q391gedk17g": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "b9j79c5u6ag": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "81okn5caoig": {
+      "links": [
+        "3e5qi618li8",
+        "b9j79c5u6ag"
+      ],
+      "predicate": "is_unison"
+    },
+    "t0qivp247eo": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "jjgr0qab": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "efrbs3i46u8": {
+      "links": [
+        "t0qivp247eo",
+        "jjgr0qab"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "3508jr5fs0o": {
+      "links": [
+        "81okn5caoig",
+        "efrbs3i46u8"
+      ],
+      "predicate": "is_unison"
+    },
+    "mmadffi5l8": {
+      "links": [
+        "qbln9tdfps",
+        "3508jr5fs0o"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "s8a357c0ek8": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "mf3d3i4c7og": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "bf090514ms": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "dojt2323p6": {
+      "links": [
+        "mf3d3i4c7og",
+        "bf090514ms"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "emp2505aubg": {
+      "links": [
+        "s8a357c0ek8",
+        "dojt2323p6"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "le2v2o103po": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "me4s1mrsv08": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "e6kt5kqbrq": {
+      "links": [
+        "le2v2o103po",
+        "me4s1mrsv08"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "8mmtm3ora08": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "47iloau2jv": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "p86rmn4a3ig": {
+      "links": [
+        "4pued2mkmq",
+        "47iloau2jv"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "trrog2hu6lo": {
+      "links": [
+        "e6kt5kqbrq",
+        "p86rmn4a3ig"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "b2dk1u62of8": {
+      "links": [
+        "emp2505aubg",
+        "trrog2hu6lo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "ldhj8egv9v8": {
+      "links": [
+        "mmadffi5l8",
+        "b2dk1u62of8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "n85eh4v5pc": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "ohngfagdkso": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "am10glufm38": {
+      "links": [],
+      "probability": "0.91"
+    },
+    "k6boko7ljbo": {
+      "links": [
+        "ohngfagdkso",
+        "am10glufm38"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "ckhli8jd89g": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "ofdfc3msho8": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "vkmtpdt886g": {
+      "links": [
+        "ckhli8jd89g",
+        "ofdfc3msho8"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "afaldmi4op": {
+      "links": [
+        "k6boko7ljbo",
+        "vkmtpdt886g"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "2tqnasora3g": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "ql8dm8v1mmo": {
+      "links": [],
+      "probability": "0.21"
+    },
+    "eoarmq30t0o": {
+      "links": [
+        "2tqnasora3g",
+        "ql8dm8v1mmo"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "3golavn8p48": {
+      "links": [],
+      "probability": "0.82"
+    },
+    "hene3gokem": {
+      "links": [
+        "eoarmq30t0o",
+        "3golavn8p48"
+      ],
+      "predicate": "is_unison"
+    },
+    "3e5qi618li8": {
+      "links": [
+        "afaldmi4op",
+        "hene3gokem"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "p7eelcvjqjo": {
+      "links": [
+        "n85eh4v5pc",
+        "3e5qi618li8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "flgienjc3f8": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "bqljvl1da3o": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "mkh5abegn2g": {
+      "links": [
+        "flgienjc3f8",
+        "bqljvl1da3o"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "42cab5h3ek": {
+      "links": [],
+      "probability": "0.54"
+    },
+    "8cap7bauae": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "l9a1r4ti6jo": {
+      "links": [
+        "42cab5h3ek",
+        "8cap7bauae"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "4g82f6l3n98": {
+      "links": [
+        "mkh5abegn2g",
+        "l9a1r4ti6jo"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "hf73c2okip8": {
+      "links": [],
+      "probability": "0.69"
+    },
+    "dogg30vuhuo": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "ljvf14h3dfg": {
+      "links": [
+        "hf73c2okip8",
+        "dogg30vuhuo"
+      ],
+      "predicate": "is_major_second"
+    },
+    "a2dqi948ebg": {
+      "links": [],
+      "probability": "0.61"
+    },
+    "sp2jkd207d": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "jffdkmg04go": {
+      "links": [
+        "a2dqi948ebg",
+        "sp2jkd207d"
+      ],
+      "predicate": "is_major_second"
+    },
+    "tmtmm821dd": {
+      "links": [
+        "ljvf14h3dfg",
+        "jffdkmg04go"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "bh9hol3d5h": {
+      "links": [
+        "mucvbrgoe5o",
+        "tmtmm821dd"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "jefgkl7e9e": {
+      "links": [],
+      "probability": "0.96"
+    },
+    "fd35eu8k8lo": {
+      "links": [],
+      "probability": "0.83"
+    },
+    "e9qve9apmjo": {
+      "links": [
+        "jefgkl7e9e",
+        "fd35eu8k8lo"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "apm19flvc3": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "u2v3jaafi18": {
+      "links": [],
+      "probability": "0.55"
+    },
+    "cs3d30t9bu": {
+      "links": [
+        "apm19flvc3",
+        "u2v3jaafi18"
+      ],
+      "predicate": "intensity_is_forte"
+    },
+    "cekibq131g": {
+      "links": [
+        "e9qve9apmjo",
+        "cs3d30t9bu"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "707j4ua1h2o": {
+      "links": [],
+      "probability": "0.26"
+    },
+    "9gsmjdtrbao": {
+      "links": [],
+      "probability": "0.64"
+    },
+    "l4792kilkf8": {
+      "links": [],
+      "probability": "0.64"
+    },
+    "1q033lrfes": {
+      "links": [
+        "9gsmjdtrbao",
+        "l4792kilkf8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "28u8uqr4v18": {
+      "links": [
+        "707j4ua1h2o",
+        "1q033lrfes"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "iovhu587bvg": {
+      "links": [
+        "cekibq131g",
+        "28u8uqr4v18"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "uhbb9o5aplo": {
+      "links": [
+        "bh9hol3d5h",
+        "iovhu587bvg"
+      ],
+      "predicate": "is_unison"
+    },
+    "f15rkd24868": {
+      "links": [],
+      "probability": "0.86"
+    },
+    "vst4hpie01": {
+      "links": [],
+      "probability": "0.19"
+    },
+    "ek3srp7cv5g": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "7lg8arlqhb8": {
+      "links": [
+        "vst4hpie01",
+        "ek3srp7cv5g"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "fnqmgqp416o": {
+      "links": [],
+      "probability": "0.46"
+    },
+    "mucvbrgoe5o": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "7rbprqbmpbg": {
+      "links": [
+        "fnqmgqp416o",
+        "mucvbrgoe5o"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "3ls6ia3chc": {
+      "links": [
+        "7lg8arlqhb8",
+        "7rbprqbmpbg"
+      ],
+      "predicate": "duration_is_half_note"
+    },
+    "es88pabuqdo": {
+      "links": [
+        "aojgaqi6mi",
+        "3ls6ia3chc"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "vj8gebbjls": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "m6sgct7hi18": {
+      "links": [
+        "es88pabuqdo",
+        "vj8gebbjls"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "41d2hmj43oo": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "9e1f3d635v": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "8a0csklg8m": {
+      "links": [
+        "41d2hmj43oo",
+        "9e1f3d635v"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "7qlkkrqis8o": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "qqr0il9rcrg": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "sc4b85hb0og": {
+      "links": [
+        "7qlkkrqis8o",
+        "qqr0il9rcrg"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "0h16govpju": {
+      "links": [
+        "8a0csklg8m",
+        "sc4b85hb0og"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "qc2dkq4stdo": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "3615v7c91g": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "mver9ulml28": {
+      "links": [
+        "qc2dkq4stdo",
+        "3615v7c91g"
+      ],
+      "predicate": "is_unison"
+    },
+    "ahcs3t0cvcg": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "907e6lolps8": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "78kcoj7vo6g": {
+      "links": [
+        "ahcs3t0cvcg",
+        "907e6lolps8"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "qjfsijfjnq8": {
+      "links": [
+        "mver9ulml28",
+        "78kcoj7vo6g"
+      ],
+      "predicate": "is_unison"
+    },
+    "cd4qe6rtlag": {
+      "links": [
+        "0h16govpju",
+        "qjfsijfjnq8"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "kfjaka717t8": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "4abu3h3h348": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "6vhb6r97e1g": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "m1ivqih19ag": {
+      "links": [
+        "4abu3h3h348",
+        "6vhb6r97e1g"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "2q3pq8g1478": {
+      "links": [
+        "17d9cklg6r",
+        "m1ivqih19ag"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "mr9v4833g9o": {
+      "links": [],
+      "probability": "0.70"
+    },
+    "aaud3pehrn": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "66l5rasa328": {
+      "links": [
+        "mr9v4833g9o",
+        "aaud3pehrn"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "4pued2mkmq": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "tb5onuhqepo": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "vn0lsonclbg": {
+      "links": [
+        "4pued2mkmq",
+        "tb5onuhqepo"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "jgsd65j439g": {
+      "links": [
+        "66l5rasa328",
+        "vn0lsonclbg"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "9vqt8n0oqfg": {
+      "links": [
+        "2q3pq8g1478",
+        "jgsd65j439g"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "9iulufn0cc": {
+      "links": [
+        "cd4qe6rtlag",
+        "9vqt8n0oqfg"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "25qko93rhng": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "g7q5re3oo2": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "eqfsnj1t4hg": {
+      "links": [],
+      "probability": "0.91"
+    },
+    "3odd3kn2f08": {
+      "links": [
+        "g7q5re3oo2",
+        "eqfsnj1t4hg"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "7qc4pb1qong": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "17d9cklg6r": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "gm3bqpc8v1o": {
+      "links": [
+        "7qc4pb1qong",
+        "17d9cklg6r"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "cq197ldtvn8": {
+      "links": [
+        "3odd3kn2f08",
+        "gm3bqpc8v1o"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "aojgaqi6mi": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "bbpf9l5euh8": {
+      "links": [],
+      "probability": "0.21"
+    },
+    "ofcfj7gq3io": {
+      "links": [
+        "aojgaqi6mi",
+        "bbpf9l5euh8"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "4dkt2t4744o": {
+      "links": [],
+      "probability": "0.82"
+    },
+    "ih315qfeiig": {
+      "links": [
+        "ofcfj7gq3io",
+        "4dkt2t4744o"
+      ],
+      "predicate": "is_major_second"
+    },
+    "3ifsmlr0kro": {
+      "links": [
+        "cq197ldtvn8",
+        "ih315qfeiig"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "to8shjcgl8o": {
+      "links": [
+        "25qko93rhng",
+        "3ifsmlr0kro"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "uh1vo3cr1n8": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "97me19rtmbg": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "le2dkb2n62": {
+      "links": [
+        "uh1vo3cr1n8",
+        "97me19rtmbg"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "5hf9u9baqjg": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "ae5v2mmepto": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "e59g478ckso": {
+      "links": [
+        "5hf9u9baqjg",
+        "ae5v2mmepto"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "uhljnbb7mco": {
+      "links": [
+        "le2dkb2n62",
+        "e59g478ckso"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "jnph4ccmq9": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "bg754qpcjoo": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "on8q022p05o": {
+      "links": [
+        "s0nd225spo",
+        "bg754qpcjoo"
+      ],
+      "predicate": "is_unison"
+    },
+    "lu7ukr50l6g": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "9kuosjm7s98": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "9799mlm13ho": {
+      "links": [
+        "c2ru6lh881g",
+        "9kuosjm7s98"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "711u8uapso": {
+      "links": [
+        "on8q022p05o",
+        "9799mlm13ho"
+      ],
+      "predicate": "is_unison"
+    },
+    "fb73o5luuvo": {
+      "links": [
+        "uhljnbb7mco",
+        "711u8uapso"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "i2k3n92bgkg": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "10nmbh4i5r": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "0p226fc6c8o": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "850h17ikkag": {
+      "links": [
+        "10nmbh4i5r",
+        "0p226fc6c8o"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "a3g9sbub3go": {
+      "links": [
+        "i2k3n92bgkg",
+        "850h17ikkag"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "oehlf905keg": {
+      "links": [],
+      "probability": "0.69"
+    },
+    "btm7762vss": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "5gphaofovp8": {
+      "links": [
+        "oehlf905keg",
+        "btm7762vss"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "fjr2c7qiua": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "sgo9iqfb0j8": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "inil06i78pg": {
+      "links": [
+        "fjr2c7qiua",
+        "sgo9iqfb0j8"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "gnhlbq3d92g": {
+      "links": [
+        "5gphaofovp8",
+        "inil06i78pg"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "3l4l86kume8": {
+      "links": [
+        "a3g9sbub3go",
+        "gnhlbq3d92g"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "qrlf5741fpo": {
+      "links": [
+        "fb73o5luuvo",
+        "3l4l86kume8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "c2ru6lh881g": {
+      "links": [],
+      "probability": "0.86"
+    },
+    "vkmld5n0738": {
+      "links": [],
+      "probability": "0.19"
+    },
+    "3k5q2092mhg": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "cknha2gj4k8": {
+      "links": [
+        "vkmld5n0738",
+        "3k5q2092mhg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "e9b64575qgg": {
+      "links": [],
+      "probability": "0.46"
+    },
+    "vhteflg76r8": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "9cjhb2gnlr": {
+      "links": [
+        "e9b64575qgg",
+        "vhteflg76r8"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "3bjvumrkllo": {
+      "links": [
+        "cknha2gj4k8",
+        "9cjhb2gnlr"
+      ],
+      "predicate": "duration_is_half_note"
+    },
+    "kmnn3q6vcuo": {
+      "links": [
+        "c2ru6lh881g",
+        "3bjvumrkllo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "b679bjcch7g": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "b26feiaqrb8": {
+      "links": [
+        "kmnn3q6vcuo",
+        "b679bjcch7g"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "p0sd34jlcs": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "ot4gdbvqq0o": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "cv7odkbslj": {
+      "links": [
+        "p0sd34jlcs",
+        "ot4gdbvqq0o"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "c2u9f03kht": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "u8uarqkvfoo": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "ae0hn0g2q4g": {
+      "links": [
+        "c2u9f03kht",
+        "u8uarqkvfoo"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "rotflvoe72o": {
+      "links": [
+        "cv7odkbslj",
+        "ae0hn0g2q4g"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "csvqjl883i": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "rbec9htjirg": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "6el9m74ja68": {
+      "links": [
+        "e4ahs1tg8s8",
+        "rbec9htjirg"
+      ],
+      "predicate": "is_unison"
+    },
+    "lbbs11q3qv8": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "f9mmvhh0u68": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "dv1rivnivjo": {
+      "links": [
+        "lbbs11q3qv8",
+        "f9mmvhh0u68"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "dcnj1v83r48": {
+      "links": [
+        "6el9m74ja68",
+        "dv1rivnivjo"
+      ],
+      "predicate": "is_unison"
+    },
+    "d7ps9mhujpg": {
+      "links": [
+        "rotflvoe72o",
+        "dcnj1v83r48"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "bu33lelljv8": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "spo3380bl78": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "pj37pqj0apg": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "agc61vase6o": {
+      "links": [
+        "spo3380bl78",
+        "pj37pqj0apg"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "ulh59mro15g": {
+      "links": [
+        "bu33lelljv8",
+        "agc61vase6o"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "8aennhue7r": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "tj0npdjs22": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "a06j3v52oco": {
+      "links": [
+        "8aennhue7r",
+        "tj0npdjs22"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "pc1p5rsv0eg": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "21eha5l7utg": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "rfsqc0aej2g": {
+      "links": [
+        "llbcq7g5rdg",
+        "21eha5l7utg"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "9geii3rjvvo": {
+      "links": [
+        "a06j3v52oco",
+        "rfsqc0aej2g"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "30u3gq6s1u": {
+      "links": [
+        "ulh59mro15g",
+        "9geii3rjvvo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "v59gmuke0qo": {
+      "links": [
+        "d7ps9mhujpg",
+        "30u3gq6s1u"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "k5ek10340oo": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "58gnlp2u79g": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "p73vl1bn1ag": {
+      "links": [],
+      "probability": "0.91"
+    },
+    "lmrnt7533po": {
+      "links": [
+        "58gnlp2u79g",
+        "p73vl1bn1ag"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "s0nd225spo": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "t0726ipfah8": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "k79qakv6kpo": {
+      "links": [
+        "s0nd225spo",
+        "t0726ipfah8"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "6qh5hvnvuh": {
+      "links": [
+        "lmrnt7533po",
+        "k79qakv6kpo"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "iiuh41sp90o": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "1ir96naj248": {
+      "links": [],
+      "probability": "0.21"
+    },
+    "pd3699krafo": {
+      "links": [
+        "iiuh41sp90o",
+        "1ir96naj248"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "0l73b1bt8dg": {
+      "links": [],
+      "probability": "0.82"
+    },
+    "eu1j2som1qg": {
+      "links": [
+        "pd3699krafo",
+        "0l73b1bt8dg"
+      ],
+      "predicate": "is_unison"
+    },
+    "e4ahs1tg8s8": {
+      "links": [
+        "6qh5hvnvuh",
+        "eu1j2som1qg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "sota7gap3v": {
+      "links": [
+        "k5ek10340oo",
+        "e4ahs1tg8s8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "n3k18nsfohg": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "l4ps3ru2m9g": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "p67k7c597m": {
+      "links": [
+        "n3k18nsfohg",
+        "l4ps3ru2m9g"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "q2i52o1hoqg": {
+      "links": [],
+      "probability": "0.54"
+    },
+    "r9vfb1lbqvg": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "ej71hv19ea": {
+      "links": [
+        "q2i52o1hoqg",
+        "r9vfb1lbqvg"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "j1ri8rcf7ig": {
+      "links": [
+        "p67k7c597m",
+        "ej71hv19ea"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "6mvj7cgcuao": {
+      "links": [],
+      "probability": "0.69"
+    },
+    "a6ikru6q368": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "5blk97f2268": {
+      "links": [
+        "6mvj7cgcuao",
+        "a6ikru6q368"
+      ],
+      "predicate": "is_major_second"
+    },
+    "8numkvb6nlg": {
+      "links": [],
+      "probability": "0.61"
+    },
+    "2q87psocpc8": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "6r4g9iq8evg": {
+      "links": [
+        "8numkvb6nlg",
+        "2q87psocpc8"
+      ],
+      "predicate": "is_major_second"
+    },
+    "evhp1brlu5g": {
+      "links": [
+        "5blk97f2268",
+        "6r4g9iq8evg"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "1pjrt7kq2jg": {
+      "links": [
+        "ob2n7fe281",
+        "evhp1brlu5g"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "gmimnu22u88": {
+      "links": [],
+      "probability": "0.96"
+    },
+    "0kdue7ditto": {
+      "links": [],
+      "probability": "0.83"
+    },
+    "hsgt07pu75": {
+      "links": [
+        "gmimnu22u88",
+        "0kdue7ditto"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "im92ofqgng": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "na562g3j40o": {
+      "links": [],
+      "probability": "0.55"
+    },
+    "tu96v08kdao": {
+      "links": [
+        "im92ofqgng",
+        "na562g3j40o"
+      ],
+      "predicate": "intensity_is_forte"
+    },
+    "shg12ongd8g": {
+      "links": [
+        "hsgt07pu75",
+        "tu96v08kdao"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "q1hv3dp32kg": {
+      "links": [],
+      "probability": "0.26"
+    },
+    "j7qk6mvdedo": {
+      "links": [],
+      "probability": "0.64"
+    },
+    "qh70qeth6po": {
+      "links": [],
+      "probability": "0.64"
+    },
+    "gn2aj47vg8o": {
+      "links": [
+        "j7qk6mvdedo",
+        "qh70qeth6po"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "24k110a5768": {
+      "links": [
+        "q1hv3dp32kg",
+        "gn2aj47vg8o"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "ms0r8huqhp": {
+      "links": [
+        "shg12ongd8g",
+        "24k110a5768"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "3gqmat1p4k8": {
+      "links": [
+        "1pjrt7kq2jg",
+        "ms0r8huqhp"
+      ],
+      "predicate": "is_unison"
+    },
+    "l599c16c4l8": {
+      "links": [],
+      "probability": "0.86"
+    },
+    "3v2g2la5a5o": {
+      "links": [],
+      "probability": "0.19"
+    },
+    "2nhp2hn8nao": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "rjah7bf71l8": {
+      "links": [
+        "3v2g2la5a5o",
+        "2nhp2hn8nao"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "o3oks4sfa2g": {
+      "links": [],
+      "probability": "0.46"
+    },
+    "ob2n7fe281": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "rli7nfl0hpo": {
+      "links": [
+        "o3oks4sfa2g",
+        "ob2n7fe281"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "9jmtd9kpka": {
+      "links": [
+        "rjah7bf71l8",
+        "rli7nfl0hpo"
+      ],
+      "predicate": "duration_is_half_note"
+    },
+    "rov7l7rf7qg": {
+      "links": [
+        "p4jokmgsdpg",
+        "9jmtd9kpka"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "e34vrh1k65": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "0l4uelrsdr8": {
+      "links": [
+        "rov7l7rf7qg",
+        "e34vrh1k65"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "hi96fsh4ht": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "qkbe5ecq9mg": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "g2ljnciv4g8": {
+      "links": [
+        "hi96fsh4ht",
+        "qkbe5ecq9mg"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "r2hdq6hubn8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "s604msoj0f8": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "dhctpanmlj8": {
+      "links": [
+        "r2hdq6hubn8",
+        "s604msoj0f8"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "qap7dfmn9sg": {
+      "links": [
+        "g2ljnciv4g8",
+        "dhctpanmlj8"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "vbdliuvf62g": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "fb2ogihat9o": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "4j78aid0538": {
+      "links": [
+        "vbdliuvf62g",
+        "fb2ogihat9o"
+      ],
+      "predicate": "is_unison"
+    },
+    "82mt0fadshg": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "9p9qsl31i8": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "810jd7bujso": {
+      "links": [
+        "82mt0fadshg",
+        "9p9qsl31i8"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "pc3gn2hb52o": {
+      "links": [
+        "4j78aid0538",
+        "810jd7bujso"
+      ],
+      "predicate": "is_unison"
+    },
+    "8jva77rhmoo": {
+      "links": [
+        "qap7dfmn9sg",
+        "pc3gn2hb52o"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "v73slr3s98g": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "o5l49u56sp8": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "37q10glj0hg": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "8t0jeftu3u8": {
+      "links": [
+        "o5l49u56sp8",
+        "37q10glj0hg"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "0d9qteud9k8": {
+      "links": [
+        "2dhkmpe8qt8",
+        "8t0jeftu3u8"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "eqps8pa2vv8": {
+      "links": [],
+      "probability": "0.70"
+    },
+    "v76fq62pb98": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "reccpaefcig": {
+      "links": [
+        "bm1ue97387",
+        "v76fq62pb98"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "llbcq7g5rdg": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "b6fs4nl3u5": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "hha99s9roe": {
+      "links": [
+        "llbcq7g5rdg",
+        "b6fs4nl3u5"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "7s2urlctkdo": {
+      "links": [
+        "reccpaefcig",
+        "hha99s9roe"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "drvgreqsb9o": {
+      "links": [
+        "0d9qteud9k8",
+        "7s2urlctkdo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "hsfjffebvpg": {
+      "links": [
+        "8jva77rhmoo",
+        "drvgreqsb9o"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "b2dkmsnm0d": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "oof0c8pk49o": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "va8tli19m78": {
+      "links": [],
+      "probability": "0.91"
+    },
+    "fd8593tv5go": {
+      "links": [
+        "oof0c8pk49o",
+        "va8tli19m78"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "rbbi9dhdqg8": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "2dhkmpe8qt8": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "hk2q12b3as": {
+      "links": [
+        "rbbi9dhdqg8",
+        "2dhkmpe8qt8"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "d4m6vrkliog": {
+      "links": [
+        "fd8593tv5go",
+        "hk2q12b3as"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "p4jokmgsdpg": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "mvalgbttrd8": {
+      "links": [],
+      "probability": "0.21"
+    },
+    "0st59ssheeg": {
+      "links": [
+        "p4jokmgsdpg",
+        "mvalgbttrd8"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "rjqm1m1kd3g": {
+      "links": [],
+      "probability": "0.82"
+    },
+    "jkj0d3einrg": {
+      "links": [
+        "0st59ssheeg",
+        "rjqm1m1kd3g"
+      ],
+      "predicate": "is_major_second"
+    },
+    "gt30n39aj8g": {
+      "links": [
+        "d4m6vrkliog",
+        "jkj0d3einrg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "ntpteih7lqo": {
+      "links": [
+        "b2dkmsnm0d",
+        "gt30n39aj8g"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "akm1pmhjn18": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "jcp1pomr8i8": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "j9ldta79edo": {
+      "links": [
+        "akm1pmhjn18",
+        "jcp1pomr8i8"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "d9e75lg9c0g": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "qrgsojde61g": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "1v10qpnvrcg": {
+      "links": [
+        "d9e75lg9c0g",
+        "qrgsojde61g"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "5t8ffr76mig": {
+      "links": [
+        "j9ldta79edo",
+        "1v10qpnvrcg"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "pj3b3m58mog": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "6pjl7av2p3": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "5teg3avp7k": {
+      "links": [
+        "f48e0n2sea",
+        "6pjl7av2p3"
+      ],
+      "predicate": "is_unison"
+    },
+    "smt23u80vr8": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "lbb6dg328uo": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "iqmtjcs3e8g": {
+      "links": [
+        "fc1gsm4kh98",
+        "lbb6dg328uo"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "0r4tktb4uoo": {
+      "links": [
+        "jn9keiik61",
+        "iqmtjcs3e8g"
+      ],
+      "predicate": "is_unison"
+    },
+    "cv30vrq4h0o": {
+      "links": [
+        "5t8ffr76mig",
+        "0r4tktb4uoo"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "3fg9lteuvvg": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "8vvc0ttgqro": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "ojrhuceiqt8": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "24q0293r7ug": {
+      "links": [
+        "8vvc0ttgqro",
+        "ojrhuceiqt8"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "h4ofpef7228": {
+      "links": [
+        "3fg9lteuvvg",
+        "24q0293r7ug"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "udn5dlmlpr8": {
+      "links": [],
+      "probability": "0.69"
+    },
+    "lh76rb11umg": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "0l1v9d67o3g": {
+      "links": [
+        "udn5dlmlpr8",
+        "lh76rb11umg"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "ikussu300v": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "1uj5qftgbv8": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "e1t3nle3peo": {
+      "links": [
+        "ikussu300v",
+        "1uj5qftgbv8"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "bgk14hv8iqo": {
+      "links": [
+        "0l1v9d67o3g",
+        "e1t3nle3peo"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "bi1911bcb5o": {
+      "links": [
+        "h4ofpef7228",
+        "bgk14hv8iqo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "1f5v0l2eii": {
+      "links": [
+        "cv30vrq4h0o",
+        "bi1911bcb5o"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "fc1gsm4kh98": {
+      "links": [],
+      "probability": "0.86"
+    },
+    "qh63ai89spo": {
+      "links": [],
+      "probability": "0.19"
+    },
+    "qk7npt4043g": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "qc4ov94lhk8": {
+      "links": [
+        "qh63ai89spo",
+        "qk7npt4043g"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "8t34t0k1fn": {
+      "links": [],
+      "probability": "0.46"
+    },
+    "o087ta5vtdo": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "7fvdmuaha68": {
+      "links": [
+        "8t34t0k1fn",
+        "o087ta5vtdo"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "tu8d8a7s3": {
+      "links": [
+        "qc4ov94lhk8",
+        "7fvdmuaha68"
+      ],
+      "predicate": "duration_is_half_note"
+    },
+    "ud7ooji3q8g": {
+      "links": [
+        "fc1gsm4kh98",
+        "tu8d8a7s3"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "ufh0vnjqmf8": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "7g5gouad3s": {
+      "links": [
+        "ud7ooji3q8g",
+        "ufh0vnjqmf8"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "gan496ke86": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "k4v98fpn0t8": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "og723jpto48": {
+      "links": [
+        "gan496ke86",
+        "k4v98fpn0t8"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "do2rc5jaca8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "lj3983cqlm8": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "ohq243beoao": {
+      "links": [
+        "do2rc5jaca8",
+        "lj3983cqlm8"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "k9lqn5diafo": {
+      "links": [
+        "og723jpto48",
+        "ohq243beoao"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "4djqh2ng4hg": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "2866i9g0alg": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "rt82nn3nsm": {
+      "links": [
+        "gcsen5nhi5",
+        "2866i9g0alg"
+      ],
+      "predicate": "is_unison"
+    },
+    "1hdu30gfhf": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "k2o9tprmf9o": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "l7n0o2ga99g": {
+      "links": [
+        "1hdu30gfhf",
+        "k2o9tprmf9o"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "ub4pbtpe0so": {
+      "links": [
+        "rt82nn3nsm",
+        "l7n0o2ga99g"
+      ],
+      "predicate": "is_unison"
+    },
+    "68jr9kg004": {
+      "links": [
+        "k9lqn5diafo",
+        "ub4pbtpe0so"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "fnp26uhooh": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "mt6o3s9gcd8": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "p8v5k0837fo": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "4d0hpf35ue": {
+      "links": [
+        "mt6o3s9gcd8",
+        "p8v5k0837fo"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "fnbreaah19": {
+      "links": [
+        "fnp26uhooh",
+        "4d0hpf35ue"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "3r33t051ei": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "va3kicpds8g": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "npfkpd1si8o": {
+      "links": [
+        "3r33t051ei",
+        "va3kicpds8g"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "v5kceur1o5o": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "hiog75odavo": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "hedlrv458uo": {
+      "links": [
+        "gs540df16no",
+        "hiog75odavo"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "luqkik9u548": {
+      "links": [
+        "npfkpd1si8o",
+        "hedlrv458uo"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "f8drpf3beh8": {
+      "links": [
+        "fnbreaah19",
+        "luqkik9u548"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "9u10ud2p40g": {
+      "links": [
+        "68jr9kg004",
+        "f8drpf3beh8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "idmhejf9fgo": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "s96n0va41ig": {
+      "links": [],
+      "probability": "0.23"
+    },
+    "jpumvnlqc2": {
+      "links": [],
+      "probability": "0.91"
+    },
+    "p51pqqn7f7g": {
+      "links": [
+        "s96n0va41ig",
+        "jpumvnlqc2"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "f48e0n2sea": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "o51rpoh16f": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "gcgbstn7fmg": {
+      "links": [
+        "f48e0n2sea",
+        "o51rpoh16f"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "9kqv47ldkco": {
+      "links": [
+        "p51pqqn7f7g",
+        "gcgbstn7fmg"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "o14uc75pjb8": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "ah653cj00po": {
+      "links": [],
+      "probability": "0.21"
+    },
+    "bi0hf489qh8": {
+      "links": [
+        "o14uc75pjb8",
+        "ah653cj00po"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "hq3hq34knqo": {
+      "links": [],
+      "probability": "0.82"
+    },
+    "or3hkac2ucg": {
+      "links": [
+        "bi0hf489qh8",
+        "hq3hq34knqo"
+      ],
+      "predicate": "is_unison"
+    },
+    "gcsen5nhi5": {
+      "links": [
+        "9kqv47ldkco",
+        "or3hkac2ucg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "rl1qecbot2g": {
+      "links": [
+        "idmhejf9fgo",
+        "gcsen5nhi5"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "5tis1oht8q8": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "ci3s6ba3nf": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "qv8mie36joo": {
+      "links": [
+        "5tis1oht8q8",
+        "ci3s6ba3nf"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "tjnetfrg79g": {
+      "links": [],
+      "probability": "0.54"
+    },
+    "l305q9vvho": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "s8jmij0ju78": {
+      "links": [
+        "tjnetfrg79g",
+        "l305q9vvho"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "kk5onnup6no": {
+      "links": [
+        "qv8mie36joo",
+        "s8jmij0ju78"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "hikf71n5e2": {
+      "links": [],
+      "probability": "0.69"
+    },
+    "hehmd6amk6o": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "dtc3pk57aj8": {
+      "links": [
+        "hikf71n5e2",
+        "hehmd6amk6o"
+      ],
+      "predicate": "is_major_second"
+    },
+    "ie4ptrn5dm": {
+      "links": [],
+      "probability": "0.61"
+    },
+    "6piav5basv": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "3cul6vd0c7o": {
+      "links": [
+        "ie4ptrn5dm",
+        "6piav5basv"
+      ],
+      "predicate": "is_major_second"
+    },
+    "t3q172qrue8": {
+      "links": [
+        "dtc3pk57aj8",
+        "3cul6vd0c7o"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "pp3vguotgag": {
+      "links": [
+        "62uk4iecuqo",
+        "t3q172qrue8"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "sgctj1ak88o": {
+      "links": [],
+      "probability": "0.96"
+    },
+    "ta2tb0dnob8": {
+      "links": [],
+      "probability": "0.83"
+    },
+    "rk1qr9pv9mg": {
+      "links": [
+        "sgctj1ak88o",
+        "ta2tb0dnob8"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "gjquapn71lg": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "94j7s8d06ho": {
+      "links": [],
+      "probability": "0.55"
+    },
+    "52503iljv3g": {
+      "links": [
+        "gjquapn71lg",
+        "94j7s8d06ho"
+      ],
+      "predicate": "intensity_is_forte"
+    },
+    "496a91u1qtg": {
+      "links": [
+        "rk1qr9pv9mg",
+        "52503iljv3g"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "ci5eln4oino": {
+      "links": [],
+      "probability": "0.26"
+    },
+    "utthiorqt2": {
+      "links": [],
+      "probability": "0.64"
+    },
+    "724jilnh0p8": {
+      "links": [],
+      "probability": "0.64"
+    },
+    "bm1ue97387": {
+      "links": [
+        "utthiorqt2",
+        "724jilnh0p8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "gbhonjuipp8": {
+      "links": [
+        "ci5eln4oino",
+        "bm1ue97387"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "9eeemafpq2g": {
+      "links": [
+        "496a91u1qtg",
+        "gbhonjuipp8"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "h5a0902m068": {
+      "links": [
+        "pp3vguotgag",
+        "9eeemafpq2g"
+      ],
+      "predicate": "is_unison"
+    },
+    "8o9lq2dnkv": {
+      "links": [],
+      "probability": "0.86"
+    },
+    "tfisgia5tjg": {
+      "links": [],
+      "probability": "0.19"
+    },
+    "1r93uhi9v6": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "dtl6q55rq4": {
+      "links": [
+        "tfisgia5tjg",
+        "1r93uhi9v6"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "fcolsd8if5": {
+      "links": [],
+      "probability": "0.46"
+    },
+    "62uk4iecuqo": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "ihcvnftbgg8": {
+      "links": [
+        "fcolsd8if5",
+        "62uk4iecuqo"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "8ov0bhdlrj": {
+      "links": [
+        "dtl6q55rq4",
+        "ihcvnftbgg8"
+      ],
+      "predicate": "duration_is_half_note"
+    },
+    "3uiar6s6em": {
+      "links": [
+        "9fmnelqgbio",
+        "8ov0bhdlrj"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "1b0i19ln91g": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "1401se6b6dg": {
+      "links": [
+        "3uiar6s6em",
+        "1b0i19ln91g"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "16rhs57c8b8": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "1in0c61i1j8": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "p3m1r6va1oo": {
+      "links": [
+        "16rhs57c8b8",
+        "1in0c61i1j8"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "ejfpuo9rpng": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "02a72uafbc": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "e4gts2mk2hg": {
+      "links": [
+        "ejfpuo9rpng",
+        "02a72uafbc"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "62ead0iic9g": {
+      "links": [
+        "p3m1r6va1oo",
+        "e4gts2mk2hg"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "okh2229uuag": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "prkqgtlel8g": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "oms7v777spg": {
+      "links": [
+        "okh2229uuag",
+        "prkqgtlel8g"
+      ],
+      "predicate": "is_unison"
+    },
+    "k752el9nt9": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "cpnds11pd6o": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "pinqc5gmf48": {
+      "links": [
+        "k752el9nt9",
+        "cpnds11pd6o"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "e4903dt6b7g": {
+      "links": [
+        "oms7v777spg",
+        "pinqc5gmf48"
+      ],
+      "predicate": "is_unison"
+    },
+    "9cub3r82i48": {
+      "links": [
+        "62ead0iic9g",
+        "e4903dt6b7g"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "a3b0hlfh9c8": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "9ef6t879mjo": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "i0nui5mf0mg": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "ca2dqsjadpo": {
+      "links": [
+        "9ef6t879mjo",
+        "i0nui5mf0mg"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "eff6i0na918": {
+      "links": [
+        "fla6fcnat4o",
+        "ca2dqsjadpo"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "9kj15e7pbjo": {
+      "links": [],
+      "probability": "0.70"
+    },
+    "ve8dj2mhfao": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "cpl4r8dpnfg": {
+      "links": [
+        "9kj15e7pbjo",
+        "ve8dj2mhfao"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "gs540df16no": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "a9f76pjs3j": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "vmtrgkevodo": {
+      "links": [
+        "gs540df16no",
+        "a9f76pjs3j"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "v00flbuapig": {
+      "links": [
+        "cpl4r8dpnfg",
+        "vmtrgkevodo"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "seh9vj1jnug": {
+      "links": [
+        "eff6i0na918",
+        "v00flbuapig"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "4jj20vk8i7g": {
+      "links": [
+        "9cub3r82i48",
+        "seh9vj1jnug"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "cdd8ii1slag": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "fln3ktd5c4": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "lhg5teqkb98": {
+      "links": [],
+      "probability": "0.91"
+    },
+    "7r4263eeh7o": {
+      "links": [
+        "fln3ktd5c4",
+        "lhg5teqkb98"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "jbkm4442lno": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "fla6fcnat4o": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "tu7s0435djg": {
+      "links": [
+        "jbkm4442lno",
+        "fla6fcnat4o"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "1v5eieh21u8": {
+      "links": [
+        "7r4263eeh7o",
+        "tu7s0435djg"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "9fmnelqgbio": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "8jj200c3738": {
+      "links": [],
+      "probability": "0.21"
+    },
+    "7qmhcoqchl": {
+      "links": [
+        "9fmnelqgbio",
+        "8jj200c3738"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "o94e2s07qho": {
+      "links": [],
+      "probability": "0.82"
+    },
+    "5gj6r8c7p7g": {
+      "links": [
+        "7qmhcoqchl",
+        "o94e2s07qho"
+      ],
+      "predicate": "is_major_second"
+    },
+    "30uc7r54e": {
+      "links": [
+        "1v5eieh21u8",
+        "5gj6r8c7p7g"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "jvdu2ls2l8g": {
+      "links": [
+        "cdd8ii1slag",
+        "30uc7r54e"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "85nqn38hin": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "9i4im93q3lg": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "i483aefdcrg": {
+      "links": [
+        "85nqn38hin",
+        "9i4im93q3lg"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "nfo7dj6i1ho": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "p9p4fg944b8": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "iraujjlfo1g": {
+      "links": [
+        "nfo7dj6i1ho",
+        "p9p4fg944b8"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "dpg54pcfkgo": {
+      "links": [
+        "i483aefdcrg",
+        "iraujjlfo1g"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "erk0a75rgng": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "n0m86ga9m3": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "12h2v36djko": {
+      "links": [
+        "7ovjpdba1v",
+        "n0m86ga9m3"
+      ],
+      "predicate": "is_unison"
+    },
+    "d2h0bc2ps9o": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "5i2mp68atlo": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "tgvqqk1hpj": {
+      "links": [
+        "b6ehfrnt12g",
+        "5i2mp68atlo"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "86jau0ho3l8": {
+      "links": [
+        "12h2v36djko",
+        "tgvqqk1hpj"
+      ],
+      "predicate": "is_unison"
+    },
+    "kn2kk45o7ko": {
+      "links": [
+        "dpg54pcfkgo",
+        "86jau0ho3l8"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "jquaptduevo": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "65kd8512br8": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "rmq21p603v": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "pc3oojtm3n": {
+      "links": [
+        "65kd8512br8",
+        "rmq21p603v"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "nh72elfr04g": {
+      "links": [
+        "jquaptduevo",
+        "pc3oojtm3n"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "87qnsrbprno": {
+      "links": [],
+      "probability": "0.69"
+    },
+    "f3mpm2ldf7o": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "o25qbsp6n": {
+      "links": [
+        "87qnsrbprno",
+        "f3mpm2ldf7o"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "mmkcg6stan": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "k8omrbh4eno": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "qhmgf1v9aeg": {
+      "links": [
+        "mmkcg6stan",
+        "k8omrbh4eno"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "bqkeskf9fr": {
+      "links": [
+        "o25qbsp6n",
+        "qhmgf1v9aeg"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "1dhou0qc8t": {
+      "links": [
+        "nh72elfr04g",
+        "bqkeskf9fr"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "km04no4m02g": {
+      "links": [
+        "kn2kk45o7ko",
+        "1dhou0qc8t"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "b6ehfrnt12g": {
+      "links": [],
+      "probability": "0.86"
+    },
+    "b9qc2j6joqo": {
+      "links": [],
+      "probability": "0.19"
+    },
+    "7fhjgs0lrpg": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "2gvlpqqh58g": {
+      "links": [
+        "b9qc2j6joqo",
+        "7fhjgs0lrpg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "8pg3tkrojd": {
+      "links": [],
+      "probability": "0.46"
+    },
+    "koitbq7l7n8": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "j5pbtsje9e": {
+      "links": [
+        "8pg3tkrojd",
+        "koitbq7l7n8"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "s9f3regii98": {
+      "links": [
+        "2gvlpqqh58g",
+        "j5pbtsje9e"
+      ],
+      "predicate": "duration_is_half_note"
+    },
+    "eario4pn4ng": {
+      "links": [
+        "b6ehfrnt12g",
+        "s9f3regii98"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "f6mtfkk93gg": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "f4u8pp2cslg": {
+      "links": [
+        "eario4pn4ng",
+        "f6mtfkk93gg"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "527esk1vd9g": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "lba8jtmdgsg": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "6vfiiqoa3u8": {
+      "links": [
+        "527esk1vd9g",
+        "lba8jtmdgsg"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "ih0c44kmb": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "8uv6bi23nqo": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "m3cjphifsng": {
+      "links": [
+        "ih0c44kmb",
+        "8uv6bi23nqo"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "i8uspillrio": {
+      "links": [
+        "6vfiiqoa3u8",
+        "m3cjphifsng"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "atrp5qp6stg": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "fhe3eshc2v": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "0htcknl2ui8": {
+      "links": [
+        "fcce442afto",
+        "fhe3eshc2v"
+      ],
+      "predicate": "is_unison"
+    },
+    "9egacpocpqo": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "ahgouedld2": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "oivnmhbkr9": {
+      "links": [
+        "9egacpocpqo",
+        "ahgouedld2"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "qf9g51grfl": {
+      "links": [
+        "0htcknl2ui8",
+        "oivnmhbkr9"
+      ],
+      "predicate": "is_unison"
+    },
+    "tf2l3uai8to": {
+      "links": [
+        "i8uspillrio",
+        "qf9g51grfl"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "rkc2nigsp4": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "uofjj0c4m78": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "pm3i3j809ho": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "teb3780sdgg": {
+      "links": [
+        "uofjj0c4m78",
+        "pm3i3j809ho"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "94vs1nitgc": {
+      "links": [
+        "rkc2nigsp4",
+        "teb3780sdgg"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "c6m271gb0do": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "mckr2drkhho": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "0ti7rau31jg": {
+      "links": [
+        "c6m271gb0do",
+        "mckr2drkhho"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "ca3vfbcko8g": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "7it5lcljoio": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "hqq4j88jit8": {
+      "links": [
+        "1c61m55vuk",
+        "7it5lcljoio"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "5ugmeequb88": {
+      "links": [
+        "0ti7rau31jg",
+        "hqq4j88jit8"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "tmk756bq34": {
+      "links": [
+        "94vs1nitgc",
+        "5ugmeequb88"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "rjmrofe9i5": {
+      "links": [
+        "tf2l3uai8to",
+        "tmk756bq34"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "qtsujj3ofvo": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "uo8ljuoa2fg": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "65m94808cko": {
+      "links": [],
+      "probability": "0.91"
+    },
+    "anj9m99mcq8": {
+      "links": [
+        "uo8ljuoa2fg",
+        "65m94808cko"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "7ovjpdba1v": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "lga1r3sr3vo": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "pqka5e87ilo": {
+      "links": [
+        "7ovjpdba1v",
+        "lga1r3sr3vo"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "l93cj4fkhu8": {
+      "links": [
+        "anj9m99mcq8",
+        "pqka5e87ilo"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "alqh0opmi8g": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "c7adafeesq": {
+      "links": [],
+      "probability": "0.21"
+    },
+    "1bk3kv4jpb8": {
+      "links": [
+        "alqh0opmi8g",
+        "c7adafeesq"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "0v0bpmfopg": {
+      "links": [],
+      "probability": "0.82"
+    },
+    "ejulhstbm6": {
+      "links": [
+        "1bk3kv4jpb8",
+        "0v0bpmfopg"
+      ],
+      "predicate": "is_unison"
+    },
+    "fcce442afto": {
+      "links": [
+        "l93cj4fkhu8",
+        "ejulhstbm6"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "tdnobi8ke6": {
+      "links": [
+        "qtsujj3ofvo",
+        "fcce442afto"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "jkuus6klge": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "ovgu6or7cto": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "gaqufc6jhsg": {
+      "links": [
+        "jkuus6klge",
+        "ovgu6or7cto"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "4unrhhfn7ko": {
+      "links": [],
+      "probability": "0.54"
+    },
+    "dm7lv49akj": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "34vb59hss7o": {
+      "links": [
+        "4unrhhfn7ko",
+        "dm7lv49akj"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "i30fji72bl": {
+      "links": [
+        "gaqufc6jhsg",
+        "34vb59hss7o"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "brr67bggr0o": {
+      "links": [],
+      "probability": "0.69"
+    },
+    "baneia9g52": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "bmp85cuk2g8": {
+      "links": [
+        "brr67bggr0o",
+        "baneia9g52"
+      ],
+      "predicate": "is_major_second"
+    },
+    "fjgqdtvrjng": {
+      "links": [],
+      "probability": "0.61"
+    },
+    "3frngta8j4": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "n4ac7f04blg": {
+      "links": [
+        "fjgqdtvrjng",
+        "3frngta8j4"
+      ],
+      "predicate": "is_major_second"
+    },
+    "2urbaqlanvo": {
+      "links": [
+        "bmp85cuk2g8",
+        "n4ac7f04blg"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "qjiqdt4f1rg": {
+      "links": [
+        "hghm8bc03h8",
+        "2urbaqlanvo"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "nirhtvu8r7o": {
+      "links": [],
+      "probability": "0.96"
+    },
+    "s5h0e4j12oo": {
+      "links": [],
+      "probability": "0.83"
+    },
+    "ls65vpdiq6o": {
+      "links": [
+        "nirhtvu8r7o",
+        "s5h0e4j12oo"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "oa6eq6e54ng": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "7ibq18he958": {
+      "links": [],
+      "probability": "0.55"
+    },
+    "lh05t95mr0o": {
+      "links": [
+        "oa6eq6e54ng",
+        "7ibq18he958"
+      ],
+      "predicate": "intensity_is_forte"
+    },
+    "p9mm9dblkng": {
+      "links": [
+        "ls65vpdiq6o",
+        "lh05t95mr0o"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "fdg5cekqno8": {
+      "links": [],
+      "probability": "0.26"
+    },
+    "qsamhj1g0mo": {
+      "links": [],
+      "probability": "0.64"
+    },
+    "hl92cgiejlo": {
+      "links": [],
+      "probability": "0.64"
+    },
+    "393gh000qo8": {
+      "links": [
+        "qsamhj1g0mo",
+        "hl92cgiejlo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "ls0j4s18lpo": {
+      "links": [
+        "fdg5cekqno8",
+        "393gh000qo8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "ll3a8c01h28": {
+      "links": [
+        "p9mm9dblkng",
+        "ls0j4s18lpo"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "90qk5575leo": {
+      "links": [
+        "qjiqdt4f1rg",
+        "ll3a8c01h28"
+      ],
+      "predicate": "is_unison"
+    },
+    "sm2ms0fdug8": {
+      "links": [],
+      "probability": "0.86"
+    },
+    "2h7masvu7o": {
+      "links": [],
+      "probability": "0.19"
+    },
+    "9cl0r1r4psg": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "0ejnhslg2no": {
+      "links": [
+        "2h7masvu7o",
+        "9cl0r1r4psg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "j525v8si3kg": {
+      "links": [],
+      "probability": "0.46"
+    },
+    "hghm8bc03h8": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "aka1l076aso": {
+      "links": [
+        "j525v8si3kg",
+        "hghm8bc03h8"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "psrfob03rg8": {
+      "links": [
+        "0ejnhslg2no",
+        "aka1l076aso"
+      ],
+      "predicate": "duration_is_half_note"
+    },
+    "j22d41acuc8": {
+      "links": [
+        "8ngmrqq92mg",
+        "psrfob03rg8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "ic1fr2b1u2o": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "efhmts6ah4o": {
+      "links": [
+        "j22d41acuc8",
+        "ic1fr2b1u2o"
+      ],
+      "predicate": "is_tonic_triad"
+    },
+    "adjfepoe53g": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "v7kjfcmpfjg": {
+      "links": [],
+      "probability": "0.79"
+    },
+    "hev74gj3pv8": {
+      "links": [
+        "adjfepoe53g",
+        "v7kjfcmpfjg"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "r5mdaljnad8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "cfm0gojt1h8": {
+      "links": [],
+      "probability": "0.18"
+    },
+    "buj7biidtd": {
+      "links": [
+        "r5mdaljnad8",
+        "cfm0gojt1h8"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "6t4bg5g5ms8": {
+      "links": [
+        "hev74gj3pv8",
+        "buj7biidtd"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "ucgiidsvk4g": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "f1rdeu1u92g": {
+      "links": [],
+      "probability": "0.45"
+    },
+    "5mjemjf2k5g": {
+      "links": [
+        "ucgiidsvk4g",
+        "f1rdeu1u92g"
+      ],
+      "predicate": "is_unison"
+    },
+    "5qekltkqn1": {
+      "links": [],
+      "probability": "0.87"
+    },
+    "a3mst9tcrk8": {
+      "links": [],
+      "probability": "0.63"
+    },
+    "qnqaulo8518": {
+      "links": [
+        "5qekltkqn1",
+        "a3mst9tcrk8"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "lmvlskacv8o": {
+      "links": [
+        "5mjemjf2k5g",
+        "qnqaulo8518"
+      ],
+      "predicate": "is_unison"
+    },
+    "j6jsrguo068": {
+      "links": [
+        "6t4bg5g5ms8",
+        "lmvlskacv8o"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "pb5u7vd6qi": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "lslfvu4du2": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "70h99es7ej": {
+      "links": [],
+      "probability": "0.57"
+    },
+    "h6k04fa08ng": {
+      "links": [
+        "lslfvu4du2",
+        "70h99es7ej"
+      ],
+      "predicate": "duration_shorter_than_previous"
+    },
+    "qcl0tha1g5": {
+      "links": [
+        "oboun5ou5do",
+        "h6k04fa08ng"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "scji2sqa07o": {
+      "links": [],
+      "probability": "0.70"
+    },
+    "okkv3qi9hj": {
+      "links": [],
+      "probability": "0.56"
+    },
+    "8ht51h794r8": {
+      "links": [
+        "scji2sqa07o",
+        "okkv3qi9hj"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "1c61m55vuk": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "1845p2nsc7": {
+      "links": [],
+      "probability": "0.92"
+    },
+    "l9642lkg1i8": {
+      "links": [
+        "1c61m55vuk",
+        "1845p2nsc7"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "i7iocoq3itg": {
+      "links": [
+        "8ht51h794r8",
+        "l9642lkg1i8"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "d0shd9p1j3": {
+      "links": [
+        "qcl0tha1g5",
+        "i7iocoq3itg"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "c8boadsmq8": {
+      "links": [
+        "j6jsrguo068",
+        "d0shd9p1j3"
+      ],
+      "predicate": "melodic_direction_is_up"
+    },
+    "9che90gosgo": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "pkf3ri2mi7g": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "unjntptnp4": {
+      "links": [],
+      "probability": "0.91"
+    },
+    "jn9keiik61": {
+      "links": [
+        "pkf3ri2mi7g",
+        "unjntptnp4"
+      ],
+      "predicate": "is_tritone_interval"
+    },
+    "iimrru9jc38": {
+      "links": [],
+      "probability": "0.24"
+    },
+    "oboun5ou5do": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "l56bjvh1h48": {
+      "links": [
+        "iimrru9jc38",
+        "oboun5ou5do"
+      ],
+      "predicate": "is_minor_third"
+    },
+    "344gdpb8obo": {
+      "links": [
+        "jn9keiik61",
+        "l56bjvh1h48"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "8ngmrqq92mg": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "hq2lj96q768": {
+      "links": [],
+      "probability": "0.21"
+    },
+    "e3v5mtpk2l8": {
+      "links": [
+        "8ngmrqq92mg",
+        "hq2lj96q768"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "pq81ooemocg": {
+      "links": [],
+      "probability": "0.82"
+    },
+    "kl3b8dihb1": {
+      "links": [
+        "e3v5mtpk2l8",
+        "pq81ooemocg"
+      ],
+      "predicate": "is_major_second"
+    },
+    "haom7gmfvig": {
+      "links": [
+        "344gdpb8obo",
+        "kl3b8dihb1"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "gr4nakjtdbo": {
+      "links": [
+        "9che90gosgo",
+        "haom7gmfvig"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    }
+  },
+  "melody": {
+    "hogqcgspcu8": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "0d1f2fsqakg": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "fjvuboppt18": {
+      "links": [
+        "hogqcgspcu8",
+        "0d1f2fsqakg"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "a5losndd9a": {
+      "links": [],
+      "probability": "0.75"
+    },
+    "q55sbudve4o": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "vf6ottur1bg": {
+      "links": [
+        "a5losndd9a",
+        "q55sbudve4o"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "fh5gtbcqk6o": {
+      "links": [
+        "fjvuboppt18",
+        "vf6ottur1bg"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "nj6hctknlfg": {
+      "links": [],
+      "probability": "0.74"
+    },
+    "hdnn55ui2h": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "5e44ke2kd98": {
+      "links": [
+        "r5g2dhun9vo",
+        "hdnn55ui2h"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "6sc2mbvugvo": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "4n34gslc9p": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "gpdoia8boog": {
+      "links": [
+        "6sc2mbvugvo",
+        "4n34gslc9p"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "tkhch7bum18": {
+      "links": [
+        "f6iogoiohh8",
+        "gpdoia8boog"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "2pdtlui5bm8": {
+      "links": [
+        "fh5gtbcqk6o",
+        "tkhch7bum18"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "12m5bptaeho": {
+      "links": [],
+      "probability": "0.03"
+    },
+    "h8rseac0hq8": {
+      "links": [
+        "2pdtlui5bm8",
+        "12m5bptaeho"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "mdivsovsbe": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "h72c6o9dpl8": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "gim6uv0qjo8": {
+      "links": [],
+      "probability": "0.39"
+    },
+    "crq6plpphio": {
+      "links": [
+        "h72c6o9dpl8",
+        "gim6uv0qjo8"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "3kut3vmb8r": {
+      "links": [
+        "mdivsovsbe",
+        "crq6plpphio"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "q4neqleerco": {
+      "links": [],
+      "probability": "0.60"
+    },
+    "u6u2ouqutn8": {
+      "links": [],
+      "probability": "0.59"
+    },
+    "g4cpigomi0o": {
+      "links": [
+        "q4neqleerco",
+        "u6u2ouqutn8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "c9sh49dp7r8": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "qhqforh81l": {
+      "links": [
+        "g4cpigomi0o",
+        "c9sh49dp7r8"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "46ceqbpam2g": {
+      "links": [
+        "3kut3vmb8r",
+        "qhqforh81l"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "d48geefqr4": {
+      "links": [],
+      "probability": "0.38"
+    },
+    "f6iogoiohh8": {
+      "links": [],
+      "probability": "0.22"
+    },
+    "no15mnbdn2": {
+      "links": [],
+      "probability": "0.28"
+    },
+    "98c926ru8eo": {
+      "links": [
+        "f6iogoiohh8",
+        "no15mnbdn2"
+      ],
+      "predicate": "is_major_second"
+    },
+    "7m78j4p8ee8": {
+      "links": [
+        "d48geefqr4",
+        "98c926ru8eo"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "ol5jipdq6h8": {
+      "links": [
+        "46ceqbpam2g",
+        "7m78j4p8ee8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "d5lq28qsrc": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "qjn9tscsk5o": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "uj70d4kmptg": {
+      "links": [],
+      "probability": "0.04"
+    },
+    "4j1io2e792": {
+      "links": [
+        "53f8p22p0a",
+        "uj70d4kmptg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "7b143lcu0q": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "k887iu126t8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "hi41ga5kr6": {
+      "links": [
+        "b12q5ktpd7g",
+        "k887iu126t8"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "ul60rdt8us8": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "lul2vb6s1n8": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "o26med6mq3g": {
+      "links": [
+        "ul60rdt8us8",
+        "lul2vb6s1n8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "nq3778q234o": {
+      "links": [
+        "hi41ga5kr6",
+        "o26med6mq3g"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "b4pqsjjh1fg": {
+      "links": [
+        "4j1io2e792",
+        "nq3778q234o"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "icchlqapd68": {
+      "links": [
+        "d5lq28qsrc",
+        "b4pqsjjh1fg"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "saouck9mdu": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "5lgitecjqn8": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "869ha747egg": {
+      "links": [
+        "saouck9mdu",
+        "5lgitecjqn8"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "53f8p22p0a": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "ievsjtf4p68": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "lvhvsa85pm": {
+      "links": [
+        "53f8p22p0a",
+        "ievsjtf4p68"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "2lk24kj82s8": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "r5g2dhun9vo": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "6bue7vf90ao": {
+      "links": [
+        "2lk24kj82s8",
+        "r5g2dhun9vo"
+      ],
+      "predicate": "is_unison"
+    },
+    "s00385pp178": {
+      "links": [
+        "lvhvsa85pm",
+        "6bue7vf90ao"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "hr6hde33a0g": {
+      "links": [
+        "869ha747egg",
+        "s00385pp178"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "o60u2nkpt5g": {
+      "links": [],
+      "probability": "0.08"
+    },
+    "9kbp7oseho": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "t411i2keu3o": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "q5jp5qn4ihg": {
+      "links": [
+        "9kbp7oseho",
+        "t411i2keu3o"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "3o4msj6pud8": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "m8s41uldmv8": {
+      "links": [
+        "q5jp5qn4ihg",
+        "3o4msj6pud8"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "h52n4in82m8": {
+      "links": [
+        "o60u2nkpt5g",
+        "m8s41uldmv8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "he3pmofld28": {
+      "links": [
+        "hr6hde33a0g",
+        "h52n4in82m8"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "qdg3v8q5lu8": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "ir4kr72th8o": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "a8opgbphi7": {
+      "links": [
+        "qdg3v8q5lu8",
+        "ir4kr72th8o"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "432jvi3r20g": {
+      "links": [],
+      "probability": "0.75"
+    },
+    "3c05pkv9gi": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "bou41ivifhg": {
+      "links": [
+        "432jvi3r20g",
+        "3c05pkv9gi"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "159qt66v408": {
+      "links": [
+        "a8opgbphi7",
+        "bou41ivifhg"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "g1hafbgqoi8": {
+      "links": [],
+      "probability": "0.74"
+    },
+    "rdrch94f198": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "upr52mm44v8": {
+      "links": [
+        "8ldu1ui7uvo",
+        "rdrch94f198"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "h1lo6imm308": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "n7p8r3uuo5g": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "b12q5ktpd7g": {
+      "links": [
+        "h1lo6imm308",
+        "n7p8r3uuo5g"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "3jp1nukah38": {
+      "links": [
+        "q099a7l4i88",
+        "b12q5ktpd7g"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "monjbp9hbkg": {
+      "links": [
+        "159qt66v408",
+        "3jp1nukah38"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "mqn60e766r": {
+      "links": [],
+      "probability": "0.03"
+    },
+    "7fmk0tmo5e": {
+      "links": [
+        "monjbp9hbkg",
+        "mqn60e766r"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "glgbg427nng": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "0odjms9d73g": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "nf7l0sb94l8": {
+      "links": [],
+      "probability": "0.39"
+    },
+    "kcfu0fcnlfo": {
+      "links": [
+        "0odjms9d73g",
+        "nf7l0sb94l8"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "7dtg8hqne28": {
+      "links": [
+        "glgbg427nng",
+        "kcfu0fcnlfo"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "ttrb9rh4758": {
+      "links": [],
+      "probability": "0.60"
+    },
+    "54a8ruhilr8": {
+      "links": [],
+      "probability": "0.59"
+    },
+    "0aisn2cf4d": {
+      "links": [
+        "ttrb9rh4758",
+        "54a8ruhilr8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "ak90dva6lag": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "aa9go2i9qlg": {
+      "links": [
+        "0aisn2cf4d",
+        "ak90dva6lag"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "o0opv3r15l8": {
+      "links": [
+        "7dtg8hqne28",
+        "aa9go2i9qlg"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "jtomo6t7dno": {
+      "links": [],
+      "probability": "0.38"
+    },
+    "q099a7l4i88": {
+      "links": [],
+      "probability": "0.22"
+    },
+    "nbgt7qo43b8": {
+      "links": [],
+      "probability": "0.28"
+    },
+    "s8k6a4dm5lg": {
+      "links": [
+        "cpofkrnu9no",
+        "nbgt7qo43b8"
+      ],
+      "predicate": "is_major_second"
+    },
+    "d1t68ob7vm": {
+      "links": [
+        "jtomo6t7dno",
+        "s8k6a4dm5lg"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "l9en0g0ud": {
+      "links": [
+        "o0opv3r15l8",
+        "d1t68ob7vm"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "4aqdfg978mo": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "peqp11losro": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "eunqqfat7m8": {
+      "links": [],
+      "probability": "0.04"
+    },
+    "0gcl2s06cmo": {
+      "links": [
+        "0i00n1l8an",
+        "eunqqfat7m8"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "84b6cpa18vg": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "4upuhhbpva": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "5jjq15447b8": {
+      "links": [
+        "84b6cpa18vg",
+        "4upuhhbpva"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "u84ebslpa": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "gjpohd1p8ko": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "vvk2m4h6v88": {
+      "links": [
+        "u84ebslpa",
+        "gjpohd1p8ko"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "hnl43rf3nvo": {
+      "links": [
+        "5jjq15447b8",
+        "vvk2m4h6v88"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "90m0st2snd8": {
+      "links": [
+        "0gcl2s06cmo",
+        "hnl43rf3nvo"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "la2j9nk66dg": {
+      "links": [
+        "4aqdfg978mo",
+        "90m0st2snd8"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "q4edoprb5tg": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "6ub9160uheo": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "u11d4bchrco": {
+      "links": [
+        "q4edoprb5tg",
+        "6ub9160uheo"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "0i00n1l8an": {
+      "links": [],
+      "probability": "0.49"
+    },
+    "fuepe5lud6o": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "maqgr4qhb4g": {
+      "links": [
+        "0i00n1l8an",
+        "fuepe5lud6o"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "hb6gl3ubtlg": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "8ldu1ui7uvo": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "84o5e7admlg": {
+      "links": [
+        "hb6gl3ubtlg",
+        "8ldu1ui7uvo"
+      ],
+      "predicate": "is_unison"
+    },
+    "c8vetj5amo8": {
+      "links": [
+        "maqgr4qhb4g",
+        "84o5e7admlg"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "5l05f2ueh38": {
+      "links": [
+        "u11d4bchrco",
+        "c8vetj5amo8"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "9p0c1qu199": {
+      "links": [],
+      "probability": "0.08"
+    },
+    "p8kq6kii1d": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "rgntlc4duo8": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "bick559uc2": {
+      "links": [
+        "p8kq6kii1d",
+        "rgntlc4duo8"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "0h6222flub": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "pnr3uai6s6o": {
+      "links": [
+        "bick559uc2",
+        "0h6222flub"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "7k14fqbgf9": {
+      "links": [
+        "9p0c1qu199",
+        "pnr3uai6s6o"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "st7igbrma4o": {
+      "links": [
+        "5l05f2ueh38",
+        "7k14fqbgf9"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "o1048d0qhn8": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "21lj4rm8je": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "5gsm3u14vtg": {
+      "links": [
+        "o1048d0qhn8",
+        "21lj4rm8je"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "b6dftishcro": {
+      "links": [],
+      "probability": "0.75"
+    },
+    "gkt8no9ibgg": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "0pr83ddd6n8": {
+      "links": [
+        "b6dftishcro",
+        "gkt8no9ibgg"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "f3e57tp06": {
+      "links": [
+        "5gsm3u14vtg",
+        "0pr83ddd6n8"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "h64ifri7in": {
+      "links": [],
+      "probability": "0.74"
+    },
+    "gr11trpe4jo": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "8t3g940oegg": {
+      "links": [
+        "459c98msk98",
+        "gr11trpe4jo"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "c049igorov8": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "s339v3oi4f": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "aick7a5e19o": {
+      "links": [
+        "c049igorov8",
+        "s339v3oi4f"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "8tjvrpjguvo": {
+      "links": [
+        "naj0ea5hnrg",
+        "aick7a5e19o"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "ephttipqqb8": {
+      "links": [
+        "f3e57tp06",
+        "8tjvrpjguvo"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "2kbbsi151fo": {
+      "links": [],
+      "probability": "0.03"
+    },
+    "psamam60d3": {
+      "links": [
+        "ephttipqqb8",
+        "2kbbsi151fo"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "1rti7afh5c8": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "nmp25u5o17o": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "3ekrmke1os8": {
+      "links": [],
+      "probability": "0.39"
+    },
+    "mvaf48sue4": {
+      "links": [
+        "nmp25u5o17o",
+        "3ekrmke1os8"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "jsgk4plon8": {
+      "links": [
+        "1rti7afh5c8",
+        "mvaf48sue4"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "ook2vndr2u": {
+      "links": [],
+      "probability": "0.60"
+    },
+    "gvnl3fec45g": {
+      "links": [],
+      "probability": "0.59"
+    },
+    "uh6keqok6e8": {
+      "links": [
+        "ook2vndr2u",
+        "gvnl3fec45g"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "fq7o06irbp": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "1nc8e3hk18": {
+      "links": [
+        "uh6keqok6e8",
+        "fq7o06irbp"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "rmuimnek5f": {
+      "links": [
+        "jsgk4plon8",
+        "1nc8e3hk18"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "ud1u8hic80g": {
+      "links": [],
+      "probability": "0.38"
+    },
+    "naj0ea5hnrg": {
+      "links": [],
+      "probability": "0.22"
+    },
+    "0idt96ns4p8": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "726d23b2nd": {
+      "links": [
+        "naj0ea5hnrg",
+        "0idt96ns4p8"
+      ],
+      "predicate": "is_major_second"
+    },
+    "subindo0c1": {
+      "links": [
+        "ud1u8hic80g",
+        "726d23b2nd"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "t005srhnir": {
+      "links": [
+        "rmuimnek5f",
+        "subindo0c1"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "9p4ch0tvel8": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "d7mln7qb7i": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "1acnkmjpuk8": {
+      "links": [],
+      "probability": "0.04"
+    },
+    "5o5096ns57": {
+      "links": [
+        "qhcpgv14cm",
+        "1acnkmjpuk8"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "9rma5l7vjig": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "rgrd6ud0hag": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "mup98imhb5o": {
+      "links": [
+        "o36mdcmaaq",
+        "rgrd6ud0hag"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "42f3t5hkj28": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "ub69diu0ts8": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "vvpbkmq0uog": {
+      "links": [
+        "42f3t5hkj28",
+        "ub69diu0ts8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "u20rrurv5u8": {
+      "links": [
+        "mup98imhb5o",
+        "vvpbkmq0uog"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "3n3l49b8kg": {
+      "links": [
+        "5o5096ns57",
+        "u20rrurv5u8"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "qakugvuus8": {
+      "links": [
+        "9p4ch0tvel8",
+        "3n3l49b8kg"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "13ovb3pua2g": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "j28q11cjk2o": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "g02pc86b2po": {
+      "links": [
+        "13ovb3pua2g",
+        "j28q11cjk2o"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "8oou1fabmjg": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "c401qjj826o": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "tmve758u3f": {
+      "links": [
+        "8oou1fabmjg",
+        "c401qjj826o"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "jm14s8jptko": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "459c98msk98": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "ctjk1tjqud": {
+      "links": [
+        "jm14s8jptko",
+        "459c98msk98"
+      ],
+      "predicate": "is_unison"
+    },
+    "1ckkrackaf": {
+      "links": [
+        "tmve758u3f",
+        "ctjk1tjqud"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "drvpo1b39ro": {
+      "links": [
+        "g02pc86b2po",
+        "1ckkrackaf"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "ocdsijcqagg": {
+      "links": [],
+      "probability": "0.08"
+    },
+    "1idpagnv5m8": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "jbv8dantfb": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "qv15p0qe13o": {
+      "links": [
+        "1idpagnv5m8",
+        "jbv8dantfb"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "1te2t161kg": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "8dc5udscgbo": {
+      "links": [
+        "qv15p0qe13o",
+        "1te2t161kg"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "silmekauc7g": {
+      "links": [
+        "ocdsijcqagg",
+        "8dc5udscgbo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "1pjpukp9t7g": {
+      "links": [
+        "drvpo1b39ro",
+        "silmekauc7g"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "bfqa6ojgbg": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "l40e7u97t8g": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "o3jcop15td8": {
+      "links": [
+        "bfqa6ojgbg",
+        "l40e7u97t8g"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "j9npbpoj3lo": {
+      "links": [],
+      "probability": "0.75"
+    },
+    "rmd4a3h6cf8": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "nc3gruf5vmo": {
+      "links": [
+        "j9npbpoj3lo",
+        "rmd4a3h6cf8"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "3g8n1t8o2r": {
+      "links": [
+        "o3jcop15td8",
+        "nc3gruf5vmo"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "58d1a6goeso": {
+      "links": [],
+      "probability": "0.74"
+    },
+    "dim39daeiig": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "e87ksqbij4": {
+      "links": [
+        "rq0pps8q5r",
+        "dim39daeiig"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "f6kbtjgniqo": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "s00bvlqeilo": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "o36mdcmaaq": {
+      "links": [
+        "f6kbtjgniqo",
+        "s00bvlqeilo"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "8knshiu40fo": {
+      "links": [
+        "fccji77uv78",
+        "o36mdcmaaq"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "7gllissjdf8": {
+      "links": [
+        "3g8n1t8o2r",
+        "8knshiu40fo"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "rj3nuis7kjo": {
+      "links": [],
+      "probability": "0.03"
+    },
+    "oc080huplho": {
+      "links": [
+        "7gllissjdf8",
+        "rj3nuis7kjo"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "n3m16jinosg": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "ph5iqrqf0to": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "khed38fnlf": {
+      "links": [],
+      "probability": "0.39"
+    },
+    "k8svv52sdro": {
+      "links": [
+        "ph5iqrqf0to",
+        "khed38fnlf"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "qakfnacrlk": {
+      "links": [
+        "n3m16jinosg",
+        "k8svv52sdro"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "5eal5dg8rng": {
+      "links": [],
+      "probability": "0.60"
+    },
+    "bjjeaitmc6": {
+      "links": [],
+      "probability": "0.59"
+    },
+    "f6ihk7dd5i8": {
+      "links": [
+        "5eal5dg8rng",
+        "bjjeaitmc6"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "0ujt4he8ft8": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "36af5jpc1cg": {
+      "links": [
+        "f6ihk7dd5i8",
+        "0ujt4he8ft8"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "8t8itcm409": {
+      "links": [
+        "qakfnacrlk",
+        "36af5jpc1cg"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "m8rh3mf5omg": {
+      "links": [],
+      "probability": "0.38"
+    },
+    "fccji77uv78": {
+      "links": [],
+      "probability": "0.22"
+    },
+    "vpfacrn1qh": {
+      "links": [],
+      "probability": "0.28"
+    },
+    "nlgu8s2ceco": {
+      "links": [
+        "fccji77uv78",
+        "vpfacrn1qh"
+      ],
+      "predicate": "is_major_second"
+    },
+    "om0ee3bv15": {
+      "links": [
+        "m8rh3mf5omg",
+        "nlgu8s2ceco"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "i51p3kq5bn8": {
+      "links": [
+        "8t8itcm409",
+        "om0ee3bv15"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "bb9q4711vk": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "t7orch63o2g": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "634ti1un57g": {
+      "links": [],
+      "probability": "0.04"
+    },
+    "ii9rh6qneq8": {
+      "links": [
+        "4p3h6rlj3h8",
+        "634ti1un57g"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "lo8ks54mvc": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "tdtvr8vi5i": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "vo78mtm86i8": {
+      "links": [
+        "lo8ks54mvc",
+        "tdtvr8vi5i"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "hqa3adu2ib": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "bls9gmu47jg": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "7phe7mos9qg": {
+      "links": [
+        "hqa3adu2ib",
+        "bls9gmu47jg"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "g8jivgjqpe": {
+      "links": [
+        "vo78mtm86i8",
+        "7phe7mos9qg"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "c8ir7f608d": {
+      "links": [
+        "ii9rh6qneq8",
+        "g8jivgjqpe"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "6cl4f9ihau": {
+      "links": [
+        "bb9q4711vk",
+        "c8ir7f608d"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "cpofkrnu9no": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "bmqtk4eujb8": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "pilgvrmscj": {
+      "links": [
+        "cpofkrnu9no",
+        "bmqtk4eujb8"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "4p3h6rlj3h8": {
+      "links": [],
+      "probability": "0.49"
+    },
+    "vp3kgaam8eg": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "2rg2v7e067": {
+      "links": [
+        "4p3h6rlj3h8",
+        "vp3kgaam8eg"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "fks1vds5cao": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "rq0pps8q5r": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "joc6ouq3fmg": {
+      "links": [
+        "fks1vds5cao",
+        "rq0pps8q5r"
+      ],
+      "predicate": "is_unison"
+    },
+    "1364p45b73g": {
+      "links": [
+        "2rg2v7e067",
+        "joc6ouq3fmg"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "m1vu0jan2u8": {
+      "links": [
+        "pilgvrmscj",
+        "1364p45b73g"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "6i4v263k0dg": {
+      "links": [],
+      "probability": "0.08"
+    },
+    "bq8mvd6ef4g": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "6155dd55v8": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "o2ndqn7bkpo": {
+      "links": [
+        "bq8mvd6ef4g",
+        "6155dd55v8"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "ljf6pe3l7og": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "mrhvnd96v2": {
+      "links": [
+        "o2ndqn7bkpo",
+        "ljf6pe3l7og"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "qbl8j4de4t8": {
+      "links": [
+        "6i4v263k0dg",
+        "mrhvnd96v2"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "ier7nrruevo": {
+      "links": [
+        "m1vu0jan2u8",
+        "qbl8j4de4t8"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "4kishi7i6ho": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "1g0mit9508g": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "5rb0g3v5f9": {
+      "links": [
+        "4kishi7i6ho",
+        "1g0mit9508g"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "tp7kn69ges": {
+      "links": [],
+      "probability": "0.75"
+    },
+    "sd7f8htflt": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "7bll4rulqo8": {
+      "links": [
+        "tp7kn69ges",
+        "sd7f8htflt"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "apn627snav8": {
+      "links": [
+        "5rb0g3v5f9",
+        "7bll4rulqo8"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "ejdg0c5s18g": {
+      "links": [],
+      "probability": "0.74"
+    },
+    "ftpu9esd56g": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "26b5od3tfbg": {
+      "links": [
+        "bsuei60snn8",
+        "ftpu9esd56g"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "l2k1734r73g": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "7ssv630fo": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "ptprhce44vg": {
+      "links": [
+        "l2k1734r73g",
+        "7ssv630fo"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "6j51r280bh": {
+      "links": [
+        "p1681ptsugg",
+        "ptprhce44vg"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "jrblpimt11": {
+      "links": [
+        "apn627snav8",
+        "6j51r280bh"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "1tpsuimtmp": {
+      "links": [],
+      "probability": "0.03"
+    },
+    "f88ijlrbsk": {
+      "links": [
+        "jrblpimt11",
+        "1tpsuimtmp"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "d74doeak008": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "hi3p6flsrp": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "tdps073pvco": {
+      "links": [],
+      "probability": "0.39"
+    },
+    "1q1j5knekhg": {
+      "links": [
+        "hi3p6flsrp",
+        "tdps073pvco"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "ldg09791158": {
+      "links": [
+        "d74doeak008",
+        "1q1j5knekhg"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "fqbpfdn9sp": {
+      "links": [],
+      "probability": "0.60"
+    },
+    "fpgkulpddko": {
+      "links": [],
+      "probability": "0.59"
+    },
+    "phrlb68338o": {
+      "links": [
+        "fqbpfdn9sp",
+        "fpgkulpddko"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "221uuh9bb5g": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "s97m0vbnd6o": {
+      "links": [
+        "phrlb68338o",
+        "221uuh9bb5g"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "4r6dna00be8": {
+      "links": [
+        "ldg09791158",
+        "s97m0vbnd6o"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "jlf7pctr998": {
+      "links": [],
+      "probability": "0.38"
+    },
+    "p1681ptsugg": {
+      "links": [],
+      "probability": "0.22"
+    },
+    "blqa446ct7o": {
+      "links": [],
+      "probability": "0.28"
+    },
+    "fvb6rles1d8": {
+      "links": [
+        "p1681ptsugg",
+        "blqa446ct7o"
+      ],
+      "predicate": "is_major_second"
+    },
+    "c13811e8ng8": {
+      "links": [
+        "jlf7pctr998",
+        "fvb6rles1d8"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "havkiaivat8": {
+      "links": [
+        "4r6dna00be8",
+        "c13811e8ng8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "tp9po2ak87o": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "cv5s81ie8r8": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "61ad2sspjd8": {
+      "links": [],
+      "probability": "0.04"
+    },
+    "m38afjkv6bo": {
+      "links": [
+        "n224mls5aho",
+        "61ad2sspjd8"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "j0dc4c9tt7": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "hdl2mhq0mno": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "8tvj1a0vk2": {
+      "links": [
+        "imq4r41kl8o",
+        "hdl2mhq0mno"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "sj2uokd14d": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "k70nc17nuoo": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "tfs86nfoet": {
+      "links": [
+        "sj2uokd14d",
+        "k70nc17nuoo"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "vq3luqbt3og": {
+      "links": [
+        "8tvj1a0vk2",
+        "tfs86nfoet"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "f8069nnvcj8": {
+      "links": [
+        "m38afjkv6bo",
+        "vq3luqbt3og"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "qn7j58kgiq8": {
+      "links": [
+        "tp9po2ak87o",
+        "f8069nnvcj8"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "20t3avvad6g": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "muc99p6rse": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "kjf7o1np3j": {
+      "links": [
+        "20t3avvad6g",
+        "muc99p6rse"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "n224mls5aho": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "td7sg6q5gq8": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "mroc00npm9g": {
+      "links": [
+        "n224mls5aho",
+        "td7sg6q5gq8"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "cn11ss7qe4o": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "bsuei60snn8": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "j1gh2h9vuq": {
+      "links": [
+        "cn11ss7qe4o",
+        "bsuei60snn8"
+      ],
+      "predicate": "is_unison"
+    },
+    "a212ibtvcno": {
+      "links": [
+        "mroc00npm9g",
+        "j1gh2h9vuq"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "cf4h6likjqo": {
+      "links": [
+        "kjf7o1np3j",
+        "a212ibtvcno"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "kjk4qbq6rn8": {
+      "links": [],
+      "probability": "0.08"
+    },
+    "7892buj661o": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "lhv7op88mu": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "kau7sqd0r78": {
+      "links": [
+        "7892buj661o",
+        "lhv7op88mu"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "fp9mpo92qd": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "q11eo6ar47o": {
+      "links": [
+        "kau7sqd0r78",
+        "fp9mpo92qd"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "mdt04emnlfo": {
+      "links": [
+        "kjk4qbq6rn8",
+        "q11eo6ar47o"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "dlg7s75h8c8": {
+      "links": [
+        "cf4h6likjqo",
+        "mdt04emnlfo"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "j75q93t3dto": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "o89jkrbh6k8": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "7b1rdghm1fo": {
+      "links": [
+        "j75q93t3dto",
+        "o89jkrbh6k8"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "f4vem0us6u8": {
+      "links": [],
+      "probability": "0.75"
+    },
+    "rc5fecff2og": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "t7oc95s92c8": {
+      "links": [
+        "f4vem0us6u8",
+        "rc5fecff2og"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "coschac5oi8": {
+      "links": [
+        "7b1rdghm1fo",
+        "t7oc95s92c8"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "e24kjvk20ho": {
+      "links": [],
+      "probability": "0.74"
+    },
+    "opmkf8dpjdg": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "2h6fahah82o": {
+      "links": [
+        "se5nir70l48",
+        "opmkf8dpjdg"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "l7uh9ttpjo": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "uh9i54u57eg": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "imq4r41kl8o": {
+      "links": [
+        "l7uh9ttpjo",
+        "uh9i54u57eg"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "ibv6nphid1g": {
+      "links": [
+        "kg1fk6coie8",
+        "imq4r41kl8o"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "44g78j6kkdo": {
+      "links": [
+        "coschac5oi8",
+        "ibv6nphid1g"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "khafsbole3": {
+      "links": [],
+      "probability": "0.03"
+    },
+    "sku85g4gihg": {
+      "links": [
+        "44g78j6kkdo",
+        "khafsbole3"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "578udkbjelg": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "ehvlas94loo": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "52t01qh97c": {
+      "links": [],
+      "probability": "0.39"
+    },
+    "iptsr5btdj": {
+      "links": [
+        "ehvlas94loo",
+        "52t01qh97c"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "p638trke76g": {
+      "links": [
+        "578udkbjelg",
+        "iptsr5btdj"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "asink4dg5l": {
+      "links": [],
+      "probability": "0.60"
+    },
+    "nppr0gd02vo": {
+      "links": [],
+      "probability": "0.59"
+    },
+    "mdeu1d0mnj": {
+      "links": [
+        "asink4dg5l",
+        "nppr0gd02vo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "4kpiok1qugo": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "ol5v19iatro": {
+      "links": [
+        "mdeu1d0mnj",
+        "4kpiok1qugo"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "90su2k42jd8": {
+      "links": [
+        "p638trke76g",
+        "ol5v19iatro"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "s3rgdmoakc": {
+      "links": [],
+      "probability": "0.38"
+    },
+    "kg1fk6coie8": {
+      "links": [],
+      "probability": "0.22"
+    },
+    "kuhrrhlcoqg": {
+      "links": [],
+      "probability": "0.28"
+    },
+    "9p9p56v5l5o": {
+      "links": [
+        "8vh7m4nqeoo",
+        "kuhrrhlcoqg"
+      ],
+      "predicate": "is_major_second"
+    },
+    "60cr7cujq": {
+      "links": [
+        "s3rgdmoakc",
+        "9p9p56v5l5o"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "7pbd901pik": {
+      "links": [
+        "90su2k42jd8",
+        "60cr7cujq"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "e131tv0ivn": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "5s8k1gg3bd8": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "usnuqk7h768": {
+      "links": [],
+      "probability": "0.04"
+    },
+    "dhee2q6486o": {
+      "links": [
+        "pqcf2cf6qdo",
+        "usnuqk7h768"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "3fnke09o1ko": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "4hvrt9so8og": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "rbk2rinhit8": {
+      "links": [
+        "3fnke09o1ko",
+        "4hvrt9so8og"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "e2j4a733a88": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "t59mp1hqkb8": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "j3aic0i0gqo": {
+      "links": [
+        "e2j4a733a88",
+        "t59mp1hqkb8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "2phdpju9bl8": {
+      "links": [
+        "rbk2rinhit8",
+        "j3aic0i0gqo"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "15s6u3svkko": {
+      "links": [
+        "dhee2q6486o",
+        "2phdpju9bl8"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "7fjhsifr8g": {
+      "links": [
+        "e131tv0ivn",
+        "15s6u3svkko"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "fn73l7l2kko": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "rcqceehrg7": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "pofahnlje1o": {
+      "links": [
+        "fn73l7l2kko",
+        "rcqceehrg7"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "pqcf2cf6qdo": {
+      "links": [],
+      "probability": "0.49"
+    },
+    "sq5v3j0ra2g": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "3jn5gqfqj5": {
+      "links": [
+        "pqcf2cf6qdo",
+        "sq5v3j0ra2g"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "94alupn12vg": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "se5nir70l48": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "gid1on08rp": {
+      "links": [
+        "94alupn12vg",
+        "se5nir70l48"
+      ],
+      "predicate": "is_unison"
+    },
+    "2gkshpjh7jo": {
+      "links": [
+        "3jn5gqfqj5",
+        "gid1on08rp"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "2lamq2udsf8": {
+      "links": [
+        "pofahnlje1o",
+        "2gkshpjh7jo"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "cj575irdlso": {
+      "links": [],
+      "probability": "0.08"
+    },
+    "5p8klfssrd8": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "7t2k5qtsnuo": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "a4cqt00rbig": {
+      "links": [
+        "5p8klfssrd8",
+        "7t2k5qtsnuo"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "rd0smqhq41o": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "dm5tnjt7upo": {
+      "links": [
+        "a4cqt00rbig",
+        "rd0smqhq41o"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "3ruaqk3dpk8": {
+      "links": [
+        "cj575irdlso",
+        "dm5tnjt7upo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "iuo0viceg78": {
+      "links": [
+        "2lamq2udsf8",
+        "3ruaqk3dpk8"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "0ubse7dm88": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "mu9mgjr9q48": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "sk9opaheuug": {
+      "links": [
+        "0ubse7dm88",
+        "mu9mgjr9q48"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "emu8gjjoheg": {
+      "links": [],
+      "probability": "0.75"
+    },
+    "i9fog1f1h58": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "oapa8il3lug": {
+      "links": [
+        "emu8gjjoheg",
+        "i9fog1f1h58"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "gbag393g1d8": {
+      "links": [
+        "sk9opaheuug",
+        "oapa8il3lug"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "5jqshm94j9": {
+      "links": [],
+      "probability": "0.74"
+    },
+    "i2qrcv9aa0o": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "28ppmn77evo": {
+      "links": [
+        "b4o17o3h16g",
+        "i2qrcv9aa0o"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "75gpatufu8g": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "8c1chk51kqo": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "a40f4lm74mg": {
+      "links": [
+        "75gpatufu8g",
+        "8c1chk51kqo"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "bseoh6hveo8": {
+      "links": [
+        "9toplip0rt",
+        "a40f4lm74mg"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "66kt0vr9bd8": {
+      "links": [
+        "gbag393g1d8",
+        "bseoh6hveo8"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "g11mvnfe038": {
+      "links": [],
+      "probability": "0.03"
+    },
+    "t53vlcaq7e": {
+      "links": [
+        "66kt0vr9bd8",
+        "g11mvnfe038"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "db1rc1se5ug": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "i93ak8s59q8": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "e6dha4hstag": {
+      "links": [],
+      "probability": "0.39"
+    },
+    "nad8tckeg3g": {
+      "links": [
+        "i93ak8s59q8",
+        "e6dha4hstag"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "dbqligv99q8": {
+      "links": [
+        "db1rc1se5ug",
+        "nad8tckeg3g"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "mijk9ichuog": {
+      "links": [],
+      "probability": "0.60"
+    },
+    "6ioqble7lqo": {
+      "links": [],
+      "probability": "0.59"
+    },
+    "68arup067jo": {
+      "links": [
+        "mijk9ichuog",
+        "6ioqble7lqo"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "fi09pt2918o": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "tgfrqh8lec": {
+      "links": [
+        "68arup067jo",
+        "fi09pt2918o"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "aolp73b9ui8": {
+      "links": [
+        "dbqligv99q8",
+        "tgfrqh8lec"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "fj5773fs028": {
+      "links": [],
+      "probability": "0.38"
+    },
+    "9toplip0rt": {
+      "links": [],
+      "probability": "0.22"
+    },
+    "6d6ks0fdfk8": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "df828bupjng": {
+      "links": [
+        "9toplip0rt",
+        "6d6ks0fdfk8"
+      ],
+      "predicate": "is_major_second"
+    },
+    "ahs6o6eaaj": {
+      "links": [
+        "fj5773fs028",
+        "df828bupjng"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "ldng6acel6o": {
+      "links": [
+        "aolp73b9ui8",
+        "ahs6o6eaaj"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "v5l6k37quko": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "tpr6au769b": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "tpsqfsmb8pg": {
+      "links": [],
+      "probability": "0.04"
+    },
+    "otetr3l47po": {
+      "links": [
+        "alacr07mpj8",
+        "tpsqfsmb8pg"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "d8t9t1hts2o": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "2rek2trkl6g": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "1pgkpp8dbb": {
+      "links": [
+        "o4dar5mctag",
+        "2rek2trkl6g"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "2t0u47vroug": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "n290mgr5a98": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "8js17linba8": {
+      "links": [
+        "2t0u47vroug",
+        "n290mgr5a98"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "hrl4pp80aig": {
+      "links": [
+        "1pgkpp8dbb",
+        "8js17linba8"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "n8nf5o3pi7o": {
+      "links": [
+        "otetr3l47po",
+        "hrl4pp80aig"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "bj1olk0ebko": {
+      "links": [
+        "v5l6k37quko",
+        "n8nf5o3pi7o"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "22v1ukgjud": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "8hr7oggquo8": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "q5cpq2p3l38": {
+      "links": [
+        "22v1ukgjud",
+        "8hr7oggquo8"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "alacr07mpj8": {
+      "links": [],
+      "probability": "0.40"
+    },
+    "2c55ubgejdg": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "6hlf1p38gb": {
+      "links": [
+        "alacr07mpj8",
+        "2c55ubgejdg"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "jlh36t053o": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "b4o17o3h16g": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "4jii3gbeor8": {
+      "links": [
+        "jlh36t053o",
+        "b4o17o3h16g"
+      ],
+      "predicate": "is_unison"
+    },
+    "h0pnvqucsp8": {
+      "links": [
+        "6hlf1p38gb",
+        "4jii3gbeor8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "6tlqudrr9qg": {
+      "links": [
+        "q5cpq2p3l38",
+        "h0pnvqucsp8"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "d4tj3b67fmg": {
+      "links": [],
+      "probability": "0.08"
+    },
+    "cu9a8ss45eo": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "p28oj33g6oo": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "vp0pd8k5r78": {
+      "links": [
+        "cu9a8ss45eo",
+        "p28oj33g6oo"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "mj35u11cmro": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "3bo2587fjj8": {
+      "links": [
+        "vp0pd8k5r78",
+        "mj35u11cmro"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "fsjhb8h2foo": {
+      "links": [
+        "d4tj3b67fmg",
+        "3bo2587fjj8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "lm4mn45srj": {
+      "links": [
+        "6tlqudrr9qg",
+        "fsjhb8h2foo"
+      ],
+      "predicate": "is_crescendo_trend"
+    },
+    "li6bhv25btg": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "41qv8gn09s": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "u3c0tu2211g": {
+      "links": [
+        "li6bhv25btg",
+        "41qv8gn09s"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "gpq89bdi5jo": {
+      "links": [],
+      "probability": "0.75"
+    },
+    "pgbvmtbmiig": {
+      "links": [],
+      "probability": "0.93"
+    },
+    "p38ku1b45eo": {
+      "links": [
+        "gpq89bdi5jo",
+        "pgbvmtbmiig"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "1uq0g5n5fhg": {
+      "links": [
+        "u3c0tu2211g",
+        "p38ku1b45eo"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "njuadtpj0ig": {
+      "links": [],
+      "probability": "0.74"
+    },
+    "182caskocgo": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "rhmetl99lh8": {
+      "links": [
+        "99r8qvf65ug",
+        "182caskocgo"
+      ],
+      "predicate": "duration_is_sixteenth_note"
+    },
+    "scgh0qkik68": {
+      "links": [],
+      "probability": "0.36"
+    },
+    "t5esrb10b48": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "o4dar5mctag": {
+      "links": [
+        "scgh0qkik68",
+        "t5esrb10b48"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "5d8n41hc1h8": {
+      "links": [
+        "2ei42efcteo",
+        "o4dar5mctag"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "qhcpgv14cm": {
+      "links": [
+        "1uq0g5n5fhg",
+        "5d8n41hc1h8"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "g60i1v8jd9g": {
+      "links": [],
+      "probability": "0.03"
+    },
+    "4m5q5o56c58": {
+      "links": [
+        "qhcpgv14cm",
+        "g60i1v8jd9g"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "f3eubededd8": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "udmimn3mglg": {
+      "links": [],
+      "probability": "0.07"
+    },
+    "38j1i8pd4h": {
+      "links": [],
+      "probability": "0.39"
+    },
+    "q9hi4tigp58": {
+      "links": [
+        "udmimn3mglg",
+        "38j1i8pd4h"
+      ],
+      "predicate": "duration_is_eighth_note"
+    },
+    "cfodqlrb0gg": {
+      "links": [
+        "f3eubededd8",
+        "q9hi4tigp58"
+      ],
+      "predicate": "duration_equals_previous"
+    },
+    "o5nmdofpg8g": {
+      "links": [],
+      "probability": "0.60"
+    },
+    "1lvjenu1ncg": {
+      "links": [],
+      "probability": "0.59"
+    },
+    "htfu11kvlpg": {
+      "links": [
+        "o5nmdofpg8g",
+        "1lvjenu1ncg"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "unq1lrt93": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "vb3lu06p6": {
+      "links": [
+        "htfu11kvlpg",
+        "unq1lrt93"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "qkcavd2nrfo": {
+      "links": [
+        "cfodqlrb0gg",
+        "vb3lu06p6"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "b95dpqpaes": {
+      "links": [],
+      "probability": "0.38"
+    },
+    "2ei42efcteo": {
+      "links": [],
+      "probability": "0.22"
+    },
+    "pan3e1k13h": {
+      "links": [],
+      "probability": "0.28"
+    },
+    "1caob91v7p8": {
+      "links": [
+        "2ei42efcteo",
+        "pan3e1k13h"
+      ],
+      "predicate": "is_major_second"
+    },
+    "ibuqp9kcvmo": {
+      "links": [
+        "b95dpqpaes",
+        "1caob91v7p8"
+      ],
+      "predicate": "bass_clashes_with_harmony"
+    },
+    "0qhcafkl878": {
+      "links": [
+        "qkcavd2nrfo",
+        "ibuqp9kcvmo"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "odj0hbjiaoo": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "b56nae8jmjo": {
+      "links": [],
+      "probability": "0.98"
+    },
+    "ksiskugtun8": {
+      "links": [],
+      "probability": "0.04"
+    },
+    "t2fssbfe3jg": {
+      "links": [
+        "n9d41nrav4o",
+        "ksiskugtun8"
+      ],
+      "predicate": "duration_longer_than_previous"
+    },
+    "4d0k5mfmob8": {
+      "links": [],
+      "probability": "0.80"
+    },
+    "ikh6lffp0t8": {
+      "links": [],
+      "probability": "0.34"
+    },
+    "r6i41nsect8": {
+      "links": [
+        "4d0k5mfmob8",
+        "ikh6lffp0t8"
+      ],
+      "predicate": "intensity_is_piano"
+    },
+    "l5jn3iu2veo": {
+      "links": [],
+      "probability": "0.62"
+    },
+    "11fjts9odt8": {
+      "links": [],
+      "probability": "0.20"
+    },
+    "74p5mc0kh4g": {
+      "links": [
+        "l5jn3iu2veo",
+        "11fjts9odt8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "j1qhmkhgph8": {
+      "links": [
+        "r6i41nsect8",
+        "74p5mc0kh4g"
+      ],
+      "predicate": "interval_larger_than_fifth"
+    },
+    "3sgm8dsgac8": {
+      "links": [
+        "t2fssbfe3jg",
+        "j1qhmkhgph8"
+      ],
+      "predicate": "melodic_direction_is_down"
+    },
+    "q6v46hinm3o": {
+      "links": [
+        "odj0hbjiaoo",
+        "3sgm8dsgac8"
+      ],
+      "predicate": "bass_is_consonant_with_harmony"
+    },
+    "8vh7m4nqeoo": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "9lgcbdjpdmo": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "j27p690qa6g": {
+      "links": [
+        "8vh7m4nqeoo",
+        "9lgcbdjpdmo"
+      ],
+      "predicate": "is_perfect_fifth"
+    },
+    "n9d41nrav4o": {
+      "links": [],
+      "probability": "0.49"
+    },
+    "mtc72aorcsg": {
+      "links": [],
+      "probability": "0.30"
+    },
+    "40u60mjslo": {
+      "links": [
+        "n9d41nrav4o",
+        "mtc72aorcsg"
+      ],
+      "predicate": "is_decrescendo_trend"
+    },
+    "qiso11trmi8": {
+      "links": [],
+      "probability": "0.97"
+    },
+    "99r8qvf65ug": {
+      "links": [],
+      "probability": "0.85"
+    },
+    "5s87qotufv8": {
+      "links": [
+        "qiso11trmi8",
+        "99r8qvf65ug"
+      ],
+      "predicate": "is_unison"
+    },
+    "4878p3mgjh8": {
+      "links": [
+        "40u60mjslo",
+        "5s87qotufv8"
+      ],
+      "predicate": "bass_matches_harmony_rhythm"
+    },
+    "o0fkr6g3eng": {
+      "links": [
+        "j27p690qa6g",
+        "4878p3mgjh8"
+      ],
+      "predicate": "intensity_equals_previous"
+    },
+    "o1n2ch7v5j8": {
+      "links": [],
+      "probability": "0.08"
+    },
+    "15hrc4h5ne": {
+      "links": [],
+      "probability": "0.00"
+    },
+    "b19rq8lsifg": {
+      "links": [],
+      "probability": "0.67"
+    },
+    "im7mv2buj1g": {
+      "links": [
+        "15hrc4h5ne",
+        "b19rq8lsifg"
+      ],
+      "predicate": "pitch_is_in_c_major"
+    },
+    "v7co8q0ac08": {
+      "links": [],
+      "probability": "0.10"
+    },
+    "8biqonb6sd8": {
+      "links": [
+        "im7mv2buj1g",
+        "v7co8q0ac08"
+      ],
+      "predicate": "bass_matches_harmony_root"
+    },
+    "1o3auqjlmmg": {
+      "links": [
+        "o1n2ch7v5j8",
+        "8biqonb6sd8"
+      ],
+      "predicate": "is_perfect_fourth"
+    },
+    "0i3ol469bug": {
+      "links": [
+        "o0fkr6g3eng",
+        "1o3auqjlmmg"
+      ],
+      "predicate": "is_crescendo_trend"
+    }
+  }
+}
