@@ -12,9 +12,9 @@ def build_markov_matrix(midi_folder):
     transition_counts = np.zeros((MATRIX_SIZE, MATRIX_SIZE))
     midi_files = glob.glob(os.path.join(midi_folder, "*.mid"))
     if not midi_files:
-        print("CRITICAL: No MIDI files found in", midi_folder)
+        print("no midi files found in ", midi_folder)
         return None
-    print(f"Processing {len(midi_files)} files...")
+    print(f"processing {len(midi_files)} files...")
     for file in midi_files:
         try:
             mid = mido.MidiFile(file)
@@ -36,11 +36,14 @@ def build_markov_matrix(midi_folder):
                     
                     transition_counts[prev_idx][curr_idx] += 1
         except Exception as e:
-            print(f"Failed parsing {file}: {e}")
+            print(f"failed parsing {file}: {e}")
+
+    # margen de correccion, deberia parecer mas continuo
+    epsilon = 0.1 
+    transition_counts += epsilon
 
     row_sums = transition_counts.sum(axis=1)
     
-    row_sums[row_sums == 0] = 1 
     transition_matrix = transition_counts / row_sums[:, np.newaxis]
     
     return transition_matrix

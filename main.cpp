@@ -10,7 +10,6 @@ Tree runGA(const std::string& phaseName, int popSize, int generations,
   for (auto& t : population) t.generateRandomBranch(4, 0);
 
   Tree bestTree;
-  std::mt19937 rng(std::random_device{}());
   std::uniform_int_distribution<int> parent_dist(0, 9);
 
   for (int gen = 0; gen < generations; ++gen) {
@@ -35,8 +34,8 @@ Tree runGA(const std::string& phaseName, int popSize, int generations,
     nextGen.push_back(population[1]);
 
     while (nextGen.size() < popSize) {
-      const Tree& mom = population[parent_dist(rng)];
-      const Tree& dad = population[parent_dist(rng)];
+      const Tree& mom = population[parent_dist(getGlobalRNG())];
+      const Tree& dad = population[parent_dist(getGlobalRNG())];
       Tree child = Evolver::crossover(mom, dad);
       child.mutate(temp);
       nextGen.push_back(child);
@@ -55,10 +54,13 @@ int main(int argc, char* argv[]) {
   float lambda = 0.5f;
   std::string output_file = "symphony_cpp.mid";
 
+  uint32_t master_seed = 0;
+  bool seed_provided = false;
+
   for (int i = 1; i < argc; ++i) {
     std::string arg = argv[i];
-    if (arg.find("--generations=") == 0)
-      generations = std::stoi(arg.substr(14));
+    if (arg.find("--gens=") == 0)
+      generations = std::stoi(arg.substr(7));
     else if (arg.find("--temp=") == 0)
       temp = std::stof(arg.substr(7));
     else if (arg.find("--pop=") == 0)
@@ -69,14 +71,24 @@ int main(int argc, char* argv[]) {
       lambda = std::stof(arg.substr(9));
     else if (arg.find("--out=") == 0)
       output_file = arg.substr(6);
+    else if (arg.find("--seed=") == 0) {
+      master_seed = std::stoul(arg.substr(7));
+      seed_provided = true;
+    }
   }
+
+  if (!seed_provided) {
+    master_seed = std::random_device{}();
+  }
+
+  getGlobalRNG().seed(master_seed);
 
   Evolver::PARSIMONY_THRESHOLD = threshold;
   Evolver::PARSIMONY_LAMBDA = lambda;
 
-  std::cout << "pop=" << popSize << ", gens=" << generations
-            << ", temp=" << temp << ", threshold=" << threshold
-            << ", lambda=" << lambda << "\n";
+  std::cout << "--pop=" << popSize << " --gens=" << generations
+            << " --temp=" << temp << " --threshold=" << threshold
+            << " --lambda=" << lambda << " --seed=" << master_seed << "\n";
 
   std::vector<Note> seedV = {
       Note(60, 1.0f, 80), Note(64, 0.5f, 80), Note(67, 0.5f, 80),
@@ -115,7 +127,7 @@ int main(int argc, char* argv[]) {
   std::vector<Note> melodyW =
       melodyTree.generateMelody(seedV, 64.0f, harmonyW, playback_temp);
 
-  for (auto& n : melodyW) n.pitch += 12;
+  // for (auto& n : melodyW) n.pitch += 12;
 
   auto end_time = std::chrono::high_resolution_clock::now();
   std::cout << "\n completado en "

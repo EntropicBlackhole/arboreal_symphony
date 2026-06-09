@@ -2,6 +2,7 @@ import subprocess
 import os
 import itertools
 import time
+from pathlib import Path
 
 POPULATIONS = [150, 500, 1000]
 GENERATIONS = [2000, 5000, 10000]
@@ -28,15 +29,23 @@ def run_grid_search():
         filename = f"P{pop}_G{gens}_T{temp}_Th{thresh}_L{lam}.mid"
         filepath = os.path.join(OUTPUT_DIR, filename)
 
+        file = Path(filepath)
+
+        if file.is_file():
+            print(f"{filepath} exists, skipping")
+            continue
+
         exe_name = "./train_music.exe" if os.name == 'nt' else "./train_music"
         
+        deterministic_seed = 42069 + idx
+
         command = [
             exe_name,
             f"--pop={pop}",
-            f"--generations={gens}",
-            f"--temp={temp}",
+            f"--gens={gens}",
             f"--threshold={thresh}",
             f"--lambda={lam}",
+            f"--seed={deterministic_seed}",
             f"--out={filepath}"
         ]
 
@@ -51,7 +60,6 @@ def run_grid_search():
         except subprocess.CalledProcessError:
             print(f"  -> error, fallo en permutacion {filename}")
 
-    print("\nlito xd")
 
 if __name__ == "__main__":
     run_grid_search()

@@ -9,6 +9,53 @@
 #include "HumanMatrix.hpp"
 #include "MiniMidi.hpp"
 
+constexpr int PPQ = 480;
+
+struct TemporalContext {
+  Note note;
+  int start_tick;
+  int end_tick;
+};
+
+inline TemporalContext getTemporalContext(const std::vector<Note>& track,
+                                          int time_in_ticks) {
+  if (track.empty()) {
+    // Fallback safety
+    return {Note(60, 1.0f, 80), 0, PPQ * 100};
+  }
+
+  int current_t = 0;
+  for (const auto& n : track) {
+    int note_ticks = static_cast<int>(std::round(n.duration * PPQ));
+
+    // If our requested time falls inside this note's window
+    if (current_t + note_ticks > time_in_ticks) {
+      return {n, current_t, current_t + note_ticks};
+    }
+    current_t += note_ticks;
+  }
+
+  int last_ticks = static_cast<int>(std::round(track.back().duration * PPQ));
+  return {track.back(), current_t - last_ticks, current_t};
+}
+
+inline std::mt19937& getGlobalRNG() {
+  static std::mt19937 rng(
+      1337);
+  return rng;
+}
+
+inline Note getNoteAtTime(const std::vector<Note>& track, int time_in_ticks) {
+  if (track.empty()) return Note(60, 1.0f, 80);
+  int current_t = 0;
+  for (const auto& n : track) {
+    // Explicit static_cast prevents float-to-int conversion warnings
+    current_t += static_cast<int>(std::round(n.duration * PPQ));
+    if (current_t > time_in_ticks) return n;
+  }
+  return track.back();
+}
+
 enum class Predicate {
   IsUnison,
   IsMinorSecond,
@@ -38,6 +85,10 @@ enum class Predicate {
   IsDownbeat,
   MatchesHarmonyContour,
   IsOctaveLeap,
+  ContextStartsSimultaneously,
+  ContextIsEndingSoon,
+  ContextIsSustaining,
+  ContextStartedBeforeUs,
   NUM_PREDICATES
 };
 
@@ -78,6 +129,41 @@ class Tree {
 
   Tree() {}
 
+  void compact() {
+    if (nodes.empty()) return;
+
+    std::vector<Node> active_nodes;
+    // index_map[old_index] = new_index. Initialize with -1.
+    std::vector<int> index_map(nodes.size(), -1);
+
+    // Lambda for recursive Deep-First Search mapping
+    auto copy_reachable = [&](auto& self, int old_idx) -> int {
+      if (old_idx < 0 || old_idx >= nodes.size()) return -1;  // Safety boundary
+
+      // Create the new index based on the size of our fresh vector
+      int new_idx = active_nodes.size();
+      active_nodes.push_back(nodes[old_idx]);
+      index_map[old_idx] = new_idx;
+
+      // If it's a structural node, recursively trace and remap the children
+      if (!active_nodes[new_idx].is_leaf) {
+        int old_left = active_nodes[new_idx].left_index;
+        int old_right = active_nodes[new_idx].right_index;
+
+        active_nodes[new_idx].left_index = self(self, old_left);
+        active_nodes[new_idx].right_index = self(self, old_right);
+      }
+
+      return new_idx;
+    };
+
+    // The root of the tree is always index 0. Trace downwards.
+    copy_reachable(copy_reachable, 0);
+
+    // Replace the bloated arena with the compacted, contiguous arena
+    nodes = std::move(active_nodes);
+  }
+
   void generateRandomBranch(int max_depth = 4, int current_depth = 0) {
     nodes.clear();
     root_index = buildSubtree(max_depth, current_depth);
@@ -102,10 +188,13 @@ class Tree {
         nodes[idx].predicate = static_cast<Predicate>(pdist(rng));
       }
     }
+    this->compact();
   }
 
   std::pair<float, float> evaluate(const std::vector<Note>& V,
-                                   const std::vector<Note>& context) const {
+                                   const std::vector<Note>& context,
+                                   int current_tick,
+                                   const TemporalContext& ref_ctx) const {
     if (nodes.empty()) return {0.5f, 0.5f};
     int current_idx = root_index;
     int steps = 0;
@@ -114,7 +203,7 @@ class Tree {
       const Node& current_node = nodes[current_idx];
       if (current_node.is_leaf)
         return {current_node.prob_pitch, current_node.prob_duration};
-      bool result = evaluateLogic(current_node.predicate, V, context);
+      bool result = evaluateLogic(current_node.predicate, V, context, current_tick, ref_ctx);
       current_idx = result ? current_node.left_index : current_node.right_index;
       steps++;
     }
@@ -129,40 +218,53 @@ class Tree {
     std::vector<Note> current_V = seed;
     int prev_pitch = current_V.back().pitch;
 
-    float current_time = 0.0f;
+    int target_duration_ticks =
+        static_cast<int>(std::round(target_duration_beats * PPQ));
+    int current_tick = 0;
 
-    while (current_time < target_duration_beats) {
+    while (current_tick < target_duration_ticks) {
       std::vector<Note> current_context;
+      TemporalContext ref_ctx = {Note(60, 1.0f, 80), 0, PPQ * 100};
 
       if (!ref_track.empty()) {
-        float ref_time = 0.0f;
-        Note active_harmony = ref_track[0];
-        for (const auto& n : ref_track) {
-          active_harmony = n;
-          ref_time += n.duration;
-          if (ref_time > current_time) break;
-        }
-        current_context.push_back(active_harmony);
+        current_context.push_back(
+            getNoteAtTime(ref_track, current_tick));
       }
 
-      auto [prob_pitch, prob_duration] = evaluate(current_V, current_context);
-      Note new_note =
-          mapProbabilityToNote(prob_pitch, prob_duration, prev_pitch, temp);
+      float progress = static_cast<float>(current_tick) / target_duration_ticks;
+      float current_temp = temp;
 
-      if (current_time + new_note.duration > target_duration_beats) {
-        new_note.duration = target_duration_beats - current_time;
+      if (progress >= 0.5f && progress < 0.75f)
+        current_temp = std::min(1.0f, temp * 4.0f);
+      else if (progress >= 0.75f)
+        current_temp = temp * 1.2f;
+      else if (progress >= 0.25f && progress < 0.5f)
+        current_temp = temp;
+
+
+      auto [prob_pitch, prob_duration] =
+          evaluate(current_V, current_context, current_tick, ref_ctx);
+      Note new_note =
+          mapProbabilityToNote(prob_pitch, prob_duration, prev_pitch, current_temp);
+
+      int note_ticks = static_cast<int>(std::round(new_note.duration * PPQ));
+
+      if (current_tick + note_ticks > target_duration_ticks) {
+        note_ticks = target_duration_ticks - current_tick;
+        new_note.duration = static_cast<float>(note_ticks) / PPQ;
       }
 
       W.push_back(new_note);
       current_V.push_back(new_note);
       prev_pitch = new_note.pitch;
-      current_time += new_note.duration;
+
+      current_tick += note_ticks;
     }
     return W;
   }
 
  private:
-  mutable std::mt19937 rng{std::random_device{}()};
+  mutable std::mt19937 rng{getGlobalRNG()};
 
   int buildSubtree(int max_depth, int current_depth) {
     std::uniform_real_distribution<float> dist(0.0f, 1.0f);
@@ -186,7 +288,8 @@ class Tree {
   }
 
   bool evaluateLogic(Predicate p, const std::vector<Note>& V,
-                     const std::vector<Note>& context) const {
+                     const std::vector<Note>& context, int current_tick,
+                            const TemporalContext& ref_ctx) const {
     int len = V.size();
     if (len < 2) return false;
     int p1 = V[len - 1].pitch;
@@ -283,6 +386,24 @@ class Tree {
       case Predicate::IsOctaveLeap: {
         return std::abs(p1 - p2) == 12;
       }
+      case Predicate::ContextStartsSimultaneously: {
+        // We are on the exact downbeat of a new chord change
+        return current_tick == ref_ctx.start_tick;
+      }
+      case Predicate::ContextIsEndingSoon: {
+        // The underlying chord will end within a 16th note (PPQ / 4)
+        return (ref_ctx.end_tick - current_tick) <= (PPQ / 4);
+      }
+      case Predicate::ContextIsSustaining: {
+        // The underlying chord spans a long duration (e.g., > 1 quarter note)
+        // AND we are currently in the middle of it.
+        return (ref_ctx.end_tick - ref_ctx.start_tick) > PPQ &&
+               current_tick > ref_ctx.start_tick;
+      }
+      case Predicate::ContextStartedBeforeUs: {
+        // The harmony is holding a note that started in the past
+        return ref_ctx.start_tick < current_tick;
+      }
       default:
         return false;
     }
@@ -322,17 +443,6 @@ class Evolver {
   static inline float PARSIMONY_LAMBDA = 0.5f;
   static inline int PARSIMONY_THRESHOLD = 30;
 
-  static Note getNoteAtTime(const std::vector<Note>& track,
-                            float time_in_beats) {
-    if (track.empty()) return Note(60, 1.0f, 80);  // porsiaca
-    float current_t = 0.0f;
-    for (const auto& n : track) {
-      current_t += n.duration;
-      if (current_t > time_in_beats) return n;
-    }
-    return track.back();
-  }
-
   static int copySubtree(const Tree& source, int source_idx, Tree& dest) {
     if (source_idx < 0 || source_idx >= source.nodes.size()) return -1;
     const Node& s_node = source.nodes[source_idx];
@@ -351,7 +461,7 @@ class Evolver {
     Tree child = parentA;
     if (child.nodes.empty() || parentB.nodes.empty()) return child;
 
-    std::mt19937 rng{std::random_device{}()};
+    std::mt19937 rng{getGlobalRNG()};
     std::uniform_int_distribution<int> distA(0, child.nodes.size() - 1);
     std::uniform_int_distribution<int> distB(0, parentB.nodes.size() - 1);
 
@@ -370,6 +480,7 @@ class Evolver {
       }
     }
     if (child.nodes.size() > 250) return parentA;
+    child.compact();
     return child;
   }
 
@@ -385,13 +496,15 @@ class Evolver {
 
       float human_prob = HUMAN_MATRIX[prev_idx][curr_idx];
 
-      if (human_prob == 0.0f) {
-        // si no existe en el dataset, castigar
-        score -= 10.0f;
-      } else {
-        // escalar la probabilidad directamente a puntos de aptitud
-        score += (human_prob * 100.0f);
-      }
+      // if (human_prob == 0.0f) {
+      //   // si no existe en el dataset, castigar
+      //   score -= 10.0f;
+      // } else {
+      //   // escalar la probabilidad directamente a puntos de aptitud
+      //   score += (human_prob * 100.0f);
+      // }
+
+      score += std::log(human_prob) * 10.0f;
     }
 
     return score;
@@ -445,10 +558,10 @@ class Evolver {
 
     int consecutive_16ths = 0;
     int max_consecutive_16ths = 0;
-    float current_time = 0.0f;
+    int current_tick = 0;
 
     for (size_t i = 0; i < W.size(); i++) {
-      Note current_harmony = getNoteAtTime(harmony, current_time);
+      Note current_harmony = getNoteAtTime(harmony, current_tick);
 
       if (W[i].pitch % 12 == current_harmony.pitch % 12) {
         score += 20.0f;
@@ -469,7 +582,7 @@ class Evolver {
         consecutive_16ths = 0;
       }
 
-      current_time += W[i].duration;
+      current_tick += std::round(W[i].duration * PPQ);
     }
 
     if (max_consecutive_16ths > 4) score -= 150.0f;
@@ -492,11 +605,11 @@ class Evolver {
     int consecutive_16ths = 0;
     int max_consecutive_16ths = 0;
 
-    float current_time = 0.0f;
+    int current_tick = 0;
     Note prev_harmony = getNoteAtTime(harmony, 0.0f);
 
     for (size_t i = 0; i < W.size(); i++) {
-      Note current_harmony = getNoteAtTime(harmony, current_time);
+      Note current_harmony = getNoteAtTime(harmony, current_tick);
 
       int interval = std::abs(W[i].pitch - current_harmony.pitch) % 12;
       if (interval == 0 || interval == 3 || interval == 4 || interval == 7 ||
@@ -533,8 +646,21 @@ class Evolver {
       }
 
       prev_harmony = current_harmony;
-      current_time += W[i].duration;
+      current_tick += std::round(W[i].duration * PPQ);
     }
+
+    float range_penalty = 0.0f;
+    for (const auto& n : W) {
+      if (n.pitch > 81) {  // Anything above A5 gets penalized
+        range_penalty -= (n.pitch - 81) *
+                         20.0f;  // The higher it goes, the harder it is crushed
+      }
+      if (n.pitch < 60) {  // Anything below Middle C gets penalized (preventing
+                           // mud with the bass)
+        range_penalty -= (60 - n.pitch) * 20.0f;
+      }
+    }
+    score += range_penalty;
 
     if (inflection_points < 10) score -= 200.0f;
     if (rhythmic_changes < 8) score -= 150.0f;
