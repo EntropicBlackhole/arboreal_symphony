@@ -1,0 +1,122 @@
+{
+    "0003ca04_1000_1000G_10T_30Th1781565501": {
+        "training time": "227.887 s",
+        "theme": "The_Hollow_Knight_Duel",
+        "bpm": "140",
+        "generations": "1000",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "1087419945",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_100G_10T_30Th1781565572": {
+        "training time": "15.9646 s",
+        "theme": "The_Hollow_Knight_Duel",
+        "bpm": "140",
+        "generations": "100",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "2393037753",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_100G_10T_30Th1781565660": {
+        "training time": "14.7024 s",
+        "theme": "The_Abyssal_Waltz",
+        "bpm": "85",
+        "generations": "100",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "1603326316",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_1000G_10T_30Th1781566346": {
+        "training time": "195.175 s",
+        "theme": "The_Hollow_Knight_Duel",
+        "bpm": "140",
+        "generations": "1000",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "1052706475",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_100G_10T_30Th1781566406": {
+        "training time": "14.5148 s",
+        "theme": "The_Hollow_Knight_Duel",
+        "bpm": "140",
+        "generations": "100",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "3265738626",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_100G_10T_30Th1781566464": {
+        "training time": "14.3764 s",
+        "theme": "The_Abyssal_Waltz",
+        "bpm": "85",
+        "generations": "100",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "1716187064",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_10G_10T_30Th1781566540": {
+        "training time": "4.68051 s",
+        "theme": "The_Hollow_Knight_Duel",
+        "bpm": "140",
+        "generations": "10",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "3796541166",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_10G_10T_30Th1781566581": {
+        "training time": "1.80045 s",
+        "theme": "The_Abyssal_Waltz",
+        "bpm": "85",
+        "generations": "10",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "3671019785",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_10G_10T_30Th1781566649": {
+        "training time": "1.65715 s",
+        "theme": "The_Hollow_Knight_Duel",
+        "bpm": "140",
+        "generations": "10",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "1317635971",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    },
+    "0003ca04_1000_1000G_10T_30Th1781618840": {
+        "training time": "50691.2 s",
+        "theme": "The_Hollow_Knight_Duel",
+        "bpm": "140",
+        "generations": "1000",
+        "temperature": "0.1",
+        "population": "1000",
+        "threshold": "30",
+        "lambda": "0.5",
+        "seed": "3360888085",
+        "hex_seed": "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a0200041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"
+    }
+}
