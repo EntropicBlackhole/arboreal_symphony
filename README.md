@@ -14,6 +14,14 @@
 
 Ensure you have `g++` and Python 3 installed.
 
+**0. Compliling**
+To compile it from scratch:
+
+```bash
+g++ -O3 -march=native -ffast-math -std=c++17 main.cpp -o train_music
+
+```
+
 **1. Training**
 To train a model from scratch on a specific theme:
 
@@ -45,6 +53,14 @@ To generate a new symphony from a trained model using a semantic key:
 ### Uso
 
 Asegúrate de tener instalado `g++` y Python 3.
+
+**0. Complicacion**
+Para compilarlo desde 0:
+
+```bash
+g++ -O3 -march=native -ffast-math -std=c++17 main.cpp -o train_music
+
+```
 
 **1. Entrenamiento**
 Para entrenar un modelo desde cero en un tema específico:
