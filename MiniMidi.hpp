@@ -110,6 +110,39 @@ class MiniMidi {
     tracks.push_back(trk);
   }
 
+  void addSustainPedal(int total_ticks, uint8_t channel) {
+    std::vector<uint8_t> pedal_track;
+
+    pedal_track.push_back(0x00);
+    pedal_track.push_back(0xB0 | channel);
+    pedal_track.push_back(64);
+    pedal_track.push_back(127);
+
+    int current_tick = 0;
+    int measure_ticks = 480 * 2;
+
+    while (current_tick + measure_ticks < total_ticks) {
+      current_tick += measure_ticks;
+
+      writeVarLen(pedal_track, measure_ticks - 10);
+      pedal_track.push_back(0xB0 | channel);
+      pedal_track.push_back(64);
+      pedal_track.push_back(0); 
+
+      writeVarLen(pedal_track, 10);
+      pedal_track.push_back(0xB0 | channel);
+      pedal_track.push_back(64);
+      pedal_track.push_back(127);
+    }
+
+    pedal_track.push_back(0x00);
+    pedal_track.push_back(0xFF);
+    pedal_track.push_back(0x2F);
+    pedal_track.push_back(0x00);
+
+    tracks.push_back(pedal_track);
+  }
+
   void save(const std::string& filename)  // midi
   {
     buffer.clear();

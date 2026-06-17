@@ -1,0 +1,5756 @@
+=== REPORTE Music by_TOBY FOX - MEGALOVANIA ===
+---------------------------------------------
+>>> PARAMETROS <<<
+---------------------------------------------
+>>> RESUMEN DE NOTAS <<<
+total de notas       : 957
+rango de tessitura  : 34 to 91
+duracion en ticks  : 107400
+polifonia  : 288 (ticks con notas sobrepuestas)
+densidad ritmica  : 4.28 notas por beat
+---------------------------------------------
+>>> datos adicionales <<<
+[
+    {
+        "track": 0,
+        "absoluteTick": 0,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 120,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 240,
+        "noteNumber": 74,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 480,
+        "noteNumber": 69,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 840,
+        "noteNumber": 68,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 1080,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 1320,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 1560,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 1680,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 1800,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 1920,
+        "noteNumber": 60,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 2040,
+        "noteNumber": 60,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 2160,
+        "noteNumber": 74,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 2400,
+        "noteNumber": 69,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 2760,
+        "noteNumber": 68,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 3000,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 3240,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 3480,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 3600,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 3720,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 3840,
+        "noteNumber": 59,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 3960,
+        "noteNumber": 59,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 4080,
+        "noteNumber": 74,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 4320,
+        "noteNumber": 69,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 4680,
+        "noteNumber": 68,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 4920,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 5160,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 5400,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 5520,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 5640,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 5760,
+        "noteNumber": 58,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 5880,
+        "noteNumber": 58,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 6000,
+        "noteNumber": 74,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 6240,
+        "noteNumber": 69,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 6600,
+        "noteNumber": 68,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 6840,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 7080,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 7320,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 7440,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 7560,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 7680,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 7680,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 7800,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 7920,
+        "noteNumber": 74,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 7920,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 8160,
+        "noteNumber": 69,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 8160,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 8280,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 8520,
+        "noteNumber": 68,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 8520,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 8760,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 8760,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 9000,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 9000,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 9240,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 9240,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 9360,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 9360,
+        "noteNumber": 50,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 9480,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 9600,
+        "noteNumber": 60,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 9600,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 9720,
+        "noteNumber": 60,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 9840,
+        "noteNumber": 74,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 9840,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 10080,
+        "noteNumber": 69,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 10080,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 10200,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 10440,
+        "noteNumber": 68,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 10440,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 10680,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 10680,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 10920,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 10920,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 11160,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 11160,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 11280,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 11280,
+        "noteNumber": 48,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 11400,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 11520,
+        "noteNumber": 59,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 11520,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 11640,
+        "noteNumber": 59,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 11760,
+        "noteNumber": 74,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 11760,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 12000,
+        "noteNumber": 69,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 12000,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 12120,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 12360,
+        "noteNumber": 68,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 12360,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 12600,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 12600,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 12840,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 12840,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 13080,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 13080,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 13200,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 13200,
+        "noteNumber": 47,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 13320,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 13440,
+        "noteNumber": 58,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 13440,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 13560,
+        "noteNumber": 58,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 13680,
+        "noteNumber": 74,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 13680,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 13920,
+        "noteNumber": 69,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 13920,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 14040,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 14280,
+        "noteNumber": 68,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 14280,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 14520,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 14520,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 14760,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 14760,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 15000,
+        "noteNumber": 62,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 15000,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 15120,
+        "noteNumber": 65,
+        "velocity": 80
+    },
+    {
+        "track": 1,
+        "absoluteTick": 15120,
+        "noteNumber": 46,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 15240,
+        "noteNumber": 67,
+        "velocity": 80
+    },
+    {
+        "track": 0,
+        "absoluteTick": 15360,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 15360,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 15480,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 15600,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 15600,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 15840,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 15840,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 16080,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 16200,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 16320,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 16440,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 16560,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 16680,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 16800,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 16920,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 17040,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 17040,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 17160,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 17280,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 17280,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 17400,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 17520,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 17520,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 17760,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 17760,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 18000,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 18120,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 18240,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 18360,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 18480,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 18600,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 18720,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 18840,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 18960,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 18960,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 19080,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 19200,
+        "noteNumber": 71,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 19200,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 19320,
+        "noteNumber": 71,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 19440,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 19440,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 19680,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 19680,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 19920,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 20040,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 20160,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 20280,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 20400,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 20520,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 20640,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 20760,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 20880,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 20880,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 21000,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 21120,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 21120,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 21240,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 21360,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 21360,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 21600,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 21600,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 21840,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 21960,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 22080,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 22200,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 22320,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 22440,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 22560,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 22680,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 22800,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 22800,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 22920,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 23040,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 23040,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 23160,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 23280,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 23280,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 23520,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 23520,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 23760,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 23880,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 24000,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 24120,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 24240,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 24360,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 24480,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 24600,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 24720,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 24720,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 24840,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 24960,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 24960,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 25080,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 25200,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 25200,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 25440,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 25440,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 25680,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 25800,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 25920,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 26040,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 26160,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 26280,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 26400,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 26520,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 26640,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 26640,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 26760,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 26880,
+        "noteNumber": 71,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 26880,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 27000,
+        "noteNumber": 71,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 27120,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 27120,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 27360,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 27360,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 27600,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 27720,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 27840,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 27960,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 28080,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 28200,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 28320,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 28440,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 28560,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 28560,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 28680,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 28800,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 28800,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 28920,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 29040,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 29040,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 29280,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 29280,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 29520,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 29640,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 29760,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 29880,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 30000,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 30120,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 30240,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 30360,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 30480,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 30480,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 30600,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 30720,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 30720,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 30960,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 30960,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 31080,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 31200,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 31320,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 31320,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 31560,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 31560,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 31800,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 31800,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 32040,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 32040,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 32160,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 32280,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 32400,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 32640,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 32640,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 32880,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 32880,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 33000,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 33120,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 33240,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 33480,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 33480,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 33720,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 33720,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 33780,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 33840,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 33960,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 33960,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 34080,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 34200,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 34560,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 34560,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 34800,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 34800,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 34920,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 35040,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 35160,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 35400,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 35400,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 35640,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 35640,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 35880,
+        "noteNumber": 84,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 35880,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 36120,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 36480,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 36480,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 36720,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 36720,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 36960,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 36960,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 37080,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 37200,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 37320,
+        "noteNumber": 84,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 37320,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 37560,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 37800,
+        "noteNumber": 91,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 37800,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 38400,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 38400,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 38400,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 38640,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 38640,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 38640,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 38760,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 38760,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 38880,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 39000,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 39000,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 39120,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 39240,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 39240,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 39360,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 39480,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 39480,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 39600,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 39720,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 39720,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 39840,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 40080,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 40320,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 40320,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 40320,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 40560,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 40560,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 40560,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 40800,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 40800,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 40800,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 40920,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 40920,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 41040,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 41160,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 41160,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 41280,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 41400,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 41400,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 41520,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 41640,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 41640,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 41760,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 41880,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 41880,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 42000,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 42000,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 42000,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 42240,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 42240,
+        "noteNumber": 86,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 42240,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 42480,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 42480,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 42480,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 42720,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 42720,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 42960,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 42960,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 43200,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 43200,
+        "noteNumber": 84,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 43200,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 43440,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 43440,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 43680,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 43680,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 43920,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 43920,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 44160,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 44160,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 44400,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 44400,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 44520,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 44520,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 44640,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 44760,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 44760,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 44880,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 45000,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 45000,
+        "noteNumber": 84,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 45120,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 45360,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 45600,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 45840,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 46080,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 46080,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 46320,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 46320,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 46560,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 46560,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 46920,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 46920,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47040,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47040,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47160,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 47160,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 47160,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47280,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47400,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 47400,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 47400,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47520,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47520,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47640,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47640,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47760,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47760,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47880,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 47880,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48000,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48000,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 48000,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 48000,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48060,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48060,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48120,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48240,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48240,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 48240,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 48240,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48480,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 48480,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 48480,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 48480,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 48840,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 48840,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 49080,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 49080,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 49320,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 49320,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 49560,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 49800,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 49920,
+        "noteNumber": 84,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 49920,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 49920,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 50160,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 50160,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 50160,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 50280,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 50400,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 50400,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 50400,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 50520,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 50640,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 50760,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 50760,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 50760,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 50880,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 51000,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 51000,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 51120,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 51240,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 51240,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 51360,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 51600,
+        "noteNumber": 84,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 51840,
+        "noteNumber": 85,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 51840,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 51840,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 52080,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 52080,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 52080,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 52320,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 52320,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 52320,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 52440,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 52560,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 52680,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 52680,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 52680,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 52920,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 52920,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 53160,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 53160,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 53760,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 53760,
+        "noteNumber": 65,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 53760,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 53760,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 54000,
+        "noteNumber": 64,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 54000,
+        "noteNumber": 67,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 54000,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 54000,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 54240,
+        "noteNumber": 65,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 54240,
+        "noteNumber": 69,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 54240,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 54240,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 54480,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 54480,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 54600,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 54600,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 54720,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 54720,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 54840,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 54840,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 55080,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 55080,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 55200,
+        "noteNumber": 69,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 55200,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 55680,
+        "noteNumber": 67,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 55680,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 55680,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 55680,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 55920,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 55920,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 56160,
+        "noteNumber": 69,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 56160,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 56160,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 56160,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 56520,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 56520,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 56640,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 56640,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 56760,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 56760,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 57000,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 57000,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 57120,
+        "noteNumber": 69,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 57120,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 57600,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 57600,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 57600,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 57600,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 57840,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 57840,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 58080,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 58080,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 58440,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 58440,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 58560,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 58680,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 58680,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 58680,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 58800,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 58920,
+        "noteNumber": 78,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 58920,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 58920,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 59040,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 59160,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 59280,
+        "noteNumber": 75,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 59400,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 59520,
+        "noteNumber": 73,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 59520,
+        "noteNumber": 68,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 59520,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 59520,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 59760,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 59760,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 60000,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60000,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60000,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60360,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60360,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 60480,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 60480,
+        "noteNumber": 75,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60600,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60600,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60840,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60840,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 60960,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 61440,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 61440,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 61680,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 61680,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 61920,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 61920,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 62280,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 62280,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 62400,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 62400,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 62520,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 62520,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 62520,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 62640,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 62760,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 62760,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 62760,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 62880,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 62880,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63000,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63000,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63120,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63120,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63240,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63240,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63360,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63360,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 63360,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 63360,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63420,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63420,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63480,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63600,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63600,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 63600,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 63600,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63840,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 63840,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 63840,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 63840,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 64200,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 64200,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 64440,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 64440,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 64680,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 64680,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 64920,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 65160,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 65280,
+        "noteNumber": 84,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 65280,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 65280,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 65520,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 65520,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 65520,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 65640,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 65760,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 65760,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 65760,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 65880,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 66000,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 66120,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 66120,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 66120,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 66240,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 66360,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 66360,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 66480,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 66600,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 66600,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 66720,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 66960,
+        "noteNumber": 84,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 67200,
+        "noteNumber": 85,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 67200,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 67200,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 67440,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 67440,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 67440,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 67680,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 67680,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 67680,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 67800,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 67920,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 68040,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 68040,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 68040,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 68280,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 68280,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 68520,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 68520,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 69120,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 69120,
+        "noteNumber": 65,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 69120,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 69120,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 69360,
+        "noteNumber": 64,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 69360,
+        "noteNumber": 67,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 69360,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 69360,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 69600,
+        "noteNumber": 65,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 69600,
+        "noteNumber": 69,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 69600,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 69600,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 69840,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 69840,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 69960,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 69960,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 70080,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 70080,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 70200,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 70200,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 70440,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 70440,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 70560,
+        "noteNumber": 69,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 70560,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 71040,
+        "noteNumber": 67,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 71040,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 71040,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 71040,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 71280,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 71280,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 71520,
+        "noteNumber": 69,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 71520,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 71520,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 71520,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 71880,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 71880,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 72000,
+        "noteNumber": 72,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 72000,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 72120,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 72120,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 72360,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 72360,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 72480,
+        "noteNumber": 69,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 72480,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 72960,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 72960,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 72960,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 72960,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 73200,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 73200,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 73440,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 73440,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 73800,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 73800,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 73920,
+        "noteNumber": 81,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74040,
+        "noteNumber": 80,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 74040,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 74040,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74160,
+        "noteNumber": 79,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74280,
+        "noteNumber": 78,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 74280,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 74280,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74400,
+        "noteNumber": 77,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74520,
+        "noteNumber": 76,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74640,
+        "noteNumber": 75,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74760,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74880,
+        "noteNumber": 73,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 74880,
+        "noteNumber": 68,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 74880,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 74880,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 75120,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 75120,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 75360,
+        "noteNumber": 74,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 75360,
+        "noteNumber": 37,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 75360,
+        "noteNumber": 49,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 75720,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 75720,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 75840,
+        "noteNumber": 70,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 75840,
+        "noteNumber": 75,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 75960,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 75960,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 76200,
+        "noteNumber": 39,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 76200,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 76320,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 76800,
+        "noteNumber": 58,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 76800,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 76800,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 77040,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 77040,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 77280,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 77280,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 77640,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 77640,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 77880,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 77880,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 78120,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 78120,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 78240,
+        "noteNumber": 65,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 78720,
+        "noteNumber": 64,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 78720,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 78720,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 78960,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 78960,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 79200,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 79200,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 79560,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 79560,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 79680,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 79800,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 79800,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 80040,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 80040,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 80640,
+        "noteNumber": 65,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 80640,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 80640,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 80880,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 80880,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 81120,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 81120,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 81480,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 81480,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 81720,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 81720,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 81960,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 81960,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 82560,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 82560,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 82800,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 82800,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 83040,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 83040,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 83400,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 83400,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 83640,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 83640,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 83880,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 83880,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 84480,
+        "noteNumber": 58,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 84480,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 84480,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 84720,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 84720,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 84960,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 84960,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 85320,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 85320,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 85560,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 85560,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 85800,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 85800,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 85920,
+        "noteNumber": 65,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 86400,
+        "noteNumber": 64,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 86400,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 86400,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 86640,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 86640,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 86880,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 86880,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 87240,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 87240,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 87360,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 87480,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 87480,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 87720,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 87720,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 88320,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 88320,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 88320,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 88560,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 88560,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 88800,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 88800,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 89160,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 89160,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 89400,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 89400,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 89640,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 89640,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 90240,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 90240,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 90480,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 90480,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 90720,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 90720,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 90720,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 90800,
+        "noteNumber": 61,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 90880,
+        "noteNumber": 60,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 90960,
+        "noteNumber": 59,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91040,
+        "noteNumber": 58,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 91080,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 91080,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91120,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91200,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91280,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 91320,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 91320,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91360,
+        "noteNumber": 54,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91440,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91520,
+        "noteNumber": 52,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 91560,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 91560,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91600,
+        "noteNumber": 51,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91680,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91800,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 0,
+        "absoluteTick": 91920,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 92160,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 92160,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 92280,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 92400,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 92640,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 93000,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 93240,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 93480,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 93720,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 93840,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 93960,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 94080,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 94080,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 94200,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 94320,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 94560,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 94920,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 95160,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 95400,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 95640,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 95760,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 95880,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 96000,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 96000,
+        "noteNumber": 35,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 96120,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 96240,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 96480,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 96840,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 97080,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 97320,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 97560,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 97680,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 97800,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 97920,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 98040,
+        "noteNumber": 47,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 98160,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 98400,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 98760,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 99000,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 99240,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 99480,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 99600,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 99720,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 99840,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 99840,
+        "noteNumber": 34,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 99960,
+        "noteNumber": 46,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 100080,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 100320,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 100680,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 100920,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 101160,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 101400,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 101520,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 101640,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 101760,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 101760,
+        "noteNumber": 36,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 101880,
+        "noteNumber": 48,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 102000,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 102240,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 102600,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 102840,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 103080,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 103320,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 103440,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 103560,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 103680,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 103680,
+        "noteNumber": 38,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 103800,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 103920,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 104160,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 104520,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 104760,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 105000,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 105240,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 105360,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 105480,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 105600,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 105720,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 105840,
+        "noteNumber": 62,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 106080,
+        "noteNumber": 57,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 106440,
+        "noteNumber": 56,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 106680,
+        "noteNumber": 55,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 106920,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 107160,
+        "noteNumber": 50,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 107280,
+        "noteNumber": 53,
+        "velocity": 96
+    },
+    {
+        "track": 1,
+        "absoluteTick": 107400,
+        "noteNumber": 55,
+        "velocity": 96
+    }
+]

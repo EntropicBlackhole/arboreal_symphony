@@ -8,6 +8,7 @@
 #include <sstream>
 #include <unordered_set>
 #include <vector>
+#include <unordered_map>
 
 #include "MiniMidi.hpp"
 
@@ -18,6 +19,43 @@ struct TemporalContext {
   int start_tick;
   int end_tick;
 };
+
+// --- DIATONIC SET THEORY (SCALE QUANTIZATION) ---
+// Standard Minor Scale (Aeolian): Root, +2, +3, +5, +7, +8, +10
+const std::vector<int> MINOR_SCALE = {0, 2, 3, 5, 7, 8, 10};
+
+// Snaps any 12-tone pitch to the nearest valid 7-tone scale degree
+inline int snapToScale(int pitch, int root_note,
+                       const std::vector<int>& scale_intervals) {
+  int octave_base = (pitch / 12) * 12;
+  int relative_pitch = pitch % 12;
+  int root_offset = root_note % 12;
+
+  // Calculate distance from the root note
+  int interval_from_root = (relative_pitch - root_offset + 12) % 12;
+
+  int closest_dist = 100;
+  int best_interval = 0;
+
+  // Find the nearest mathematically legal note in the 7-note subset
+  for (int valid_interval : scale_intervals) {
+    int dist = std::abs(interval_from_root - valid_interval);
+    // Handle wrap-around (e.g., comparing 11 to 0)
+    dist = std::min(dist, 12 - dist);
+    if (dist < closest_dist) {
+      closest_dist = dist;
+      best_interval = valid_interval;
+    }
+  }
+
+  int snapped_pitch = octave_base + root_offset + best_interval;
+
+  // Fix octave boundary shifts
+  if (std::abs(snapped_pitch - pitch) > 6) {
+    snapped_pitch += (snapped_pitch < pitch) ? 12 : -12;
+  }
+  return snapped_pitch;
+}
 
 inline std::vector<Note> getNotesInWindow(const std::vector<Note>& track,
                                           int start_tick, int end_tick) {
@@ -261,7 +299,8 @@ class Tree {
   std::vector<Note> generateMelody(const std::vector<Note>& seed,
                                    float target_duration_beats,
                                    const std::vector<Note>& ref_track = {},
-                                   float temp = 0.1f) const {
+                                   float temp = 0.1f,
+                                   bool is_pad = false) const {
     std::vector<Note> W;
     std::vector<Note> current_V = seed;
     int prev_pitch = current_V.back().pitch;
@@ -299,6 +338,13 @@ class Tree {
       if (current_tick + note_ticks > target_duration_ticks) {
         note_ticks = target_duration_ticks - current_tick;
         new_note.duration = static_cast<float>(note_ticks) / PPQ;
+      }
+
+      new_note.pitch = snapToScale(new_note.pitch, 60, MINOR_SCALE);
+
+      if (is_pad) {
+        new_note.duration = std::max(new_note.duration, 2.0f);
+        new_note.intensity = static_cast<int>(new_note.intensity * 0.70f);
       }
 
       W.push_back(new_note);
@@ -692,7 +738,7 @@ class Evolver {
                                     const std::vector<Note>& seed,
                                     const std::vector<Note>& harmony,
                                     MatrixType log_matrix) {
-    auto W_raw = tree.generateMelody(seed, 64.0f, harmony, 0.0f);
+    auto W_raw = tree.generateMelody(seed, 16.0f, harmony, 0.0f);
     auto W = extractRoots(W_raw);
     float score = calculateMatrixFitness(W, log_matrix);
 
@@ -738,7 +784,7 @@ class Evolver {
                                       const std::vector<Note>& seed,
                                       const std::vector<Note>& harmony,
                                       MatrixType log_matrix) {
-    auto W_raw = tree.generateMelody(seed, 64.0f, harmony, 0.0f);
+    auto W_raw = tree.generateMelody(seed, 16.0f, harmony, 0.0f);
     auto W = extractRoots(W_raw);
     float score = calculateMatrixFitness(W, log_matrix);
 
@@ -806,24 +852,15 @@ class Evolver {
     if (rhythmic_changes < 8) score -= 150.0f;
     if (max_consecutive_16ths > 6) score -= 220.0f;
 
-    std::vector<Note> motif_notes = getNotesInWindow(W, 0, 8 * PPQ);
+    std::vector<Note> motif_notes = getNotesInWindow(W, 0, 4 * PPQ);
     std::vector<int> motif_contour = extractContour(motif_notes);
 
-    std::vector<Note> a2_notes = getNotesInWindow(W, 16 * PPQ, 24 * PPQ);
+    std::vector<Note> a2_notes = getNotesInWindow(W, 8 * PPQ, 12 * PPQ);
     std::vector<int> a2_contour = extractContour(a2_notes);
 
-    std::vector<Note> a3_notes = getNotesInWindow(W, 48 * PPQ, 56 * PPQ);
-    std::vector<int> a3_contour = extractContour(a3_notes);
-
-    if (!motif_contour.empty()) {
-      if (!a2_contour.empty()) {
-        int dist_a2 = calculateEditDistance(motif_contour, a2_contour);
-        score += std::max(0.0f, 100.0f - (dist_a2 * 20.0f));
-      }
-      if (!a3_contour.empty()) {
-        int dist_a3 = calculateEditDistance(motif_contour, a3_contour);
-        score += std::max(0.0f, 100.0f - (dist_a3 * 20.0f));
-      }
+    if (!motif_contour.empty() && !a2_contour.empty()) {
+      int dist_a2 = calculateEditDistance(motif_contour, a2_contour);
+      score += std::max(0.0f, 50.0f - (dist_a2 * 10.0f));
     }
 
     int node_count = tree.nodes.size();
@@ -863,16 +900,45 @@ inline std::string encodeSeed(const std::vector<Note>& seed) {
 
 inline std::vector<Note> decodeSeed(const std::string& hex_str) {
   std::vector<Note> seed;
+  int current_t = 0;
   for (size_t i = 0; i < hex_str.length(); i += 8) {
     uint32_t data;
     std::stringstream ss;
     ss << std::hex << hex_str.substr(i, 8);
     ss >> data;
-    seed.push_back(decodeNote(data));
+    Note n = decodeNote(data);
+    n.absolute_tick =
+        current_t;
+    current_t +=
+        static_cast<int>(std::round(n.duration * PPQ));
+    seed.push_back(n);
   }
   return seed;
 }
 }  // namespace SeedCrypto
+
+namespace SeedRegistry {
+const std::unordered_map<std::string, std::string> DICTIONARY = {
+    {"duel",
+     "0003ca0400040a0200043a0200048a0400043a0200040a020003ca040003ea0200040a020"
+     "0041a0200043a0400045a0200047a0200048a0400043a0200040a020003ca040003ca04"},
+
+    {"melancholy", "0003c5040003f5040003c5040003f504"},
+
+    {"war", "0003000200033002000360020003900200030002"},
+
+    {"cinematic", "0003c002000400020004300200048004"}};
+
+
+inline std::string resolve(const std::string& input) {
+  auto it = DICTIONARY.find(input);
+  if (it != DICTIONARY.end()) {
+    return it->second;
+  }
+
+  return input;
+}
+}  // namespace SeedRegistry
 
 void appendTrack(std::vector<Note>& dest, const std::vector<Note>& src,
                  int time_offset_ticks) {
@@ -892,14 +958,23 @@ std::vector<Note> shiftPitch(std::vector<Note> track, int semitones) {
   return track;
 }
 
-void applyHumanDynamics(std::vector<Note>& track,
-                        bool is_chaos_section = false) {
+inline void applyHumanDynamics(std::vector<Note>& track,
+                               bool is_chaos_section = false) {
+  std::mt19937& rng = getGlobalRNG();
+  std::normal_distribution<float> jitter(0.0f, 10.0f);
+
   for (Note& n : track) {
-    if (n.absolute_tick % (PPQ * 4) == 0) {
+    // currently commented cause i dont think it betters the output, but its worth enough to not delete it
+    // int shift = static_cast<int>(std::round(jitter(rng)));
+    // n.absolute_tick += shift;
+
+    // prevent time-travel lol (cannot play before tick 0)
+    if (n.absolute_tick < 0) n.absolute_tick = 0;
+    if (n.absolute_tick % (PPQ * 4) <= 15) {
       n.intensity = 100;
-    } else if (n.absolute_tick % PPQ == 0) {
+    } else if (n.absolute_tick % PPQ <= 15) {
       n.intensity = 85;
-    } else if (n.absolute_tick % (PPQ / 2) == 0) {
+    } else if (n.absolute_tick % (PPQ / 2) <= 15) {
       n.intensity = 70;
     } else {
       n.intensity = 55;

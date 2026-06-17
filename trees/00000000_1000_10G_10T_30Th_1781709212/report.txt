@@ -1,0 +1,10 @@
+training time: 2.05437 s
+theme: The_Hollow_Knight_Duel
+bpm: 140
+generations: 10
+temperature: 0.1
+population: 1000
+threshold: 30
+lambda: 0.5
+seed: 0
+hex_seed: 00000000
