@@ -87,7 +87,7 @@ Tree runGA(const std::string& phaseName, int popSize, int generations,
 
 int main(int argc, char* argv[]) {
   int popSize = 1000;
-  int generations = 10000;  // 5000 seems more optimal
+  int generations = 2000;  // 5000 seems more optimal
   float temp = 0.1f;
   float playback_temp = 0.15f;
   int threshold = 30;

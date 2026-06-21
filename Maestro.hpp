@@ -8,6 +8,7 @@
 #include "Tree.hpp"
 #include "matrices/abyss_matrix.hpp"
 #include "matrices/aristocrat_matrix.hpp"
+#include "matrices/classical_matrix.hpp"
 #include "matrices/duelist_matrix.hpp"
 
 namespace fs = std::filesystem;
@@ -33,12 +34,16 @@ namespace Maestro {
 const std::vector<SymphonyBlueprint> REGISTRY = {
     {"The_Hollow_Knight_Duel",
      140,
-     {LOG_ARISTOCRAT_LEFT, LOG_ARISTOCRAT_RIGHT, 0.1f, 0.6f},
+     {LOG_DUELIST_LEFT, LOG_DUELIST_RIGHT, 0.1f, 0.6f},
      {LOG_DUELIST_LEFT, LOG_DUELIST_RIGHT, 0.4f, 0.2f}},
     {"The_Abyssal_Waltz",
      85,
      {LOG_ABYSS_LEFT, LOG_ABYSS_RIGHT, 0.05f, 0.8f},
-     {LOG_DUELIST_LEFT, LOG_DUELIST_RIGHT, 0.15f, 0.5f}}};
+     {LOG_DUELIST_LEFT, LOG_DUELIST_RIGHT, 0.15f, 0.5f}},
+    {"The_Baroque_Invention",
+     110,
+     {LOG_CLASSICAL_LEFT, LOG_CLASSICAL_RIGHT, 0.02f, 0.85f},
+     {LOG_CLASSICAL_LEFT, LOG_CLASSICAL_RIGHT, 0.1f, 0.6f}}};
 
 inline void appendPerfectCadence(std::vector<Note>& harmony,
                                  std::vector<Note>& bass,
@@ -199,10 +204,10 @@ inline void generate(Tree& harmTreeA, Tree& bassTreeA, Tree& melTreeA,
   midiFile.addSustainPedal(total_duration, 2);
 
   midiFile.save(output_file);
-  std::cout << "[maestro] guardado en " << output_file
-            << std::endl;
+  midiFile.save("current.mid");
+  std::cout << "[maestro] guardado en " << output_file << std::endl;
 
   std::string command = "python midi_to_json.py " + output_file;
   std::system(command.c_str());
 }
-}
+}  // namespace Maestro
